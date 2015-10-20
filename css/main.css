@@ -336,6 +336,22 @@ p.marca {
 		font-size:8px
 	}
 
+@media (max-width:767px) {
+	header {
+		height:59px
+	}
+	.logo {
+		padding-top:21px;
+		width:100%
+	}
+	.nivoSlider {
+		left:2%;
+		width:96%
+	}
+	.home .borde {
+		padding-top:125px
+	}
+}
 
 /* https://scotch.io/demos/body-class-menus-fullscreen-fancy-2 */
 
@@ -469,9 +485,10 @@ p.marca {
 }
 .toggle-nav {
 	left: auto;
-	right: 30px;
+	right: 24px;
 	position: fixed;
-	z-index: 9999999999999;
+	z-index: 9999999;
+	top:14px
 }
 .toggle-nav .option {
 	left: auto;

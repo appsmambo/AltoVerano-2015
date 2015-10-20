@@ -26,6 +26,7 @@
 					}
 				});
 			});
+			var baseUrl = '{{url()}}';
 		</script>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -61,12 +62,13 @@
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-sm-5">
-									<a href="{{url()}}" class="">
-										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left">
+								<div class="col-sm-5 col-xs-10">
+									<a href="{{url()}}" class="logo">
+										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs">
+										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive visible-xs center-block">
 									</a>
 								</div>
-								<div class="col-sm-5">
+								<div class="col-sm-5 hidden-xs">
 									<p class="text-right menu">
 										@yield('menu')
 									</p>

@@ -1,6 +1,12 @@
-var altoContenedor;
+var altoContenedor, anchoWindow;
 function home() {
-	altoContenedor = $('.contenedor-fijo').height() - 40;
+	var resta;
+	anchoWindow = $(window).width();
+	if (anchoWindow < 768)
+		resta = 20;
+	else
+		resta = 40;
+	altoContenedor = $('.contenedor-fijo').height() - resta;
 	$('.home .borde').css('padding-top', altoContenedor + 'px');
 }
 $(window).load(function(){

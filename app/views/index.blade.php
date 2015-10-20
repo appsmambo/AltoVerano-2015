@@ -15,7 +15,7 @@
 		<img src="{{url('img/banner/marquis.jpg')}}" alt="" />
 		<img src="{{url('img/banner/barbados.jpg')}}" alt="" />
 	</div>
-	<div class="marcas">
+	<div class="marcas hidden-xs">
 		<span id="slider-prev" class="atras"></span>
 		<span id="slider-next" class="siguiente"></span>
 		<div class="row">
