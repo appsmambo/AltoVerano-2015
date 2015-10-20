@@ -55,20 +55,20 @@
 		</nav>
 		<div class="site-wrap">
 			<div class="push-wrap">
-				<a href="#" class="toggle-nav visible-xs">
+				<a href="#" class="toggle-nav visible-xs visible-sm">
 					<img src="{{url('img/boton-menu.png')}}" alt="">
 				</a>
 				<div id="content">
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-sm-5 col-xs-10">
+								<div class="col-xs-12 col-md-6">
 									<a href="{{url()}}" class="logo">
 										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs">
 										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive visible-xs center-block">
 									</a>
 								</div>
-								<div class="col-sm-5 hidden-xs">
+								<div class="hidden-xs hidden-sm col-md-6">
 									<p class="text-right menu">
 										@yield('menu')
 									</p>
