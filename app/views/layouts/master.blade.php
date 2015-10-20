@@ -27,6 +27,7 @@
 					}
 				});
 			});
+			var baseUrl = '{{url()}}';
 		</script>
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -55,19 +56,20 @@
 		</nav>
 		<div class="site-wrap">
 			<div class="push-wrap">
-				<a href="#" class="toggle-nav visible-xs">
+				<a href="#" class="toggle-nav visible-xs visible-sm">
 					<img src="{{url('img/boton-menu.png')}}" alt="">
 				</a>
 				<div id="content">
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-sm-3">
-									<a href="{{url()}}" class="">
-										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left">
+								<div class="col-xs-12 col-md-6">
+									<a href="{{url()}}" class="logo">
+										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs">
+										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive visible-xs center-block">
 									</a>
 								</div>
-								<div class="col-sm-7">
+								<div class="hidden-xs hidden-sm col-md-6">
 									<p class="text-right menu">
 										@yield('menu')
 									</p>

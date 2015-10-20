@@ -48,9 +48,10 @@
 .container {
 	position:relative
 }
-.no-padding {
-	padding-left:0;
-	padding-right:0
+.container-slider {
+	background-color:#e7e7e8;
+	padding-bottom:24px;
+	width:801px
 }
 
 body {
@@ -255,8 +256,8 @@ footer {
 	box-shadow: 0px 0px 0px 26px rgba(231,231,232,0.5);
 	margin-top:40px;
 	padding-bottom:20px;
-	padding-left:20px;
-	padding-right:20px;
+	padding-left:10px;
+	padding-right:10px;
 	z-index:9
 }
 	.home .borde {
@@ -336,6 +337,22 @@ p.marca {
 		font-size:8px
 	}
 
+@media (max-width:991px) {
+	header {
+		height:59px
+	}
+	.logo {
+		padding-top:21px;
+		width:100%
+	}
+	.nivoSlider {
+		left:2%;
+		width:96%
+	}
+	.home .borde {
+		padding-top:125px
+	}
+}
 
 /* https://scotch.io/demos/body-class-menus-fullscreen-fancy-2 */
 
@@ -469,9 +486,10 @@ p.marca {
 }
 .toggle-nav {
 	left: auto;
-	right: 30px;
+	right: 24px;
 	position: fixed;
-	z-index: 9999999999999;
+	z-index: 9999999;
+	top:14px
 }
 .toggle-nav .option {
 	left: auto;
