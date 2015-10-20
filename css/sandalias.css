@@ -1,0 +1,33 @@
+.col-sm-3.footer-sandalias{
+	width:33.3%;
+}
+.bloque.nuevas-formas.accesorios {
+	font-size: 19px;
+	letter-spacing: 3px;
+	padding: 60px 0;
+}
+.bloque.nuevas-formas.accesorios span{
+	font-size: 19px;
+	letter-spacing: 3px;
+}
+.accesorios-slider{
+	color:#a5a5a6;
+	font-size:12px;
+	padding: 0;
+	margin: 9px 0 0 0;
+	font-family:'AvenirBook';
+}
+.accesorios-slider small{
+	font-size: 8px;
+}
+.accesorios-slider span{
+	float: right;
+	display: inline-block;
+}
+.accesorios-slider-content{
+	padding: 0;
+}
+.banner-sandalias-marcas{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}

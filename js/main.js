@@ -110,6 +110,39 @@ $(window).load(function(){
 			scrolling:'no'
 		});
 	});
+	$('.bxslider-marquis').bxSlider({
+		pager:false,
+		maxSlides:2,
+		moveSlides:1,
+		slideWidth:190,
+		slideMargin:10,
+		nextSelector:'#next-marquis',
+		prevSelector:'#prev-marquis',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-cacharel').bxSlider({
+		pager:false,
+		maxSlides:2,
+		moveSlides:1,
+		slideWidth:190,
+		slideMargin:10,
+		nextSelector:'#next-cacharel',
+		prevSelector:'#prev-cacharel',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-index').bxSlider({
+		pager:false,
+		maxSlides:2,
+		moveSlides:1,
+		slideWidth:190,
+		slideMargin:10,
+		nextSelector:'#next-index',
+		prevSelector:'#prev-index',
+		nextText:'',
+		prevText:''
+	});
 });
 
 $(function(){

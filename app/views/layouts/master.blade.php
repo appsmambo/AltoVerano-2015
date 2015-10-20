@@ -10,6 +10,7 @@
 		<link href="{{url('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.fancybox.css')}}" rel="stylesheet">
 		<link href="{{url('css/main.css')}}" rel="stylesheet">
+		@yield('estilos')
 		<script src="{{url('js/queryloader2.min.js')}}"></script>
 		<script type="text/javascript">
 			window.addEventListener('DOMContentLoaded', function() {
@@ -61,12 +62,12 @@
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-sm-5">
+								<div class="col-sm-3">
 									<a href="{{url()}}" class="">
 										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left">
 									</a>
 								</div>
-								<div class="col-sm-5">
+								<div class="col-sm-7">
 									<p class="text-right menu">
 										@yield('menu')
 									</p>
