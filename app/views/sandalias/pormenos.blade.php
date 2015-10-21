@@ -1,66 +1,86 @@
 @extends("layouts/master")
+@section('estilos')
+<link href="{{url('css/sandalias.css')}}" rel="stylesheet">
+@stop
 @section('menu')
-<a href="{{url('tu-look-por-menos')}}" class="active">
-	tu look por menos
+<a href="{{url('sandalias/nueva-temporada')}}">
+	nueva temporada
 </a>
-<a href="{{url('nuevas-formas')}}">
-	nuevas formas
+<a href="{{url('sandalias/ninos')}}">
+	niños
+</a>
+<a href="{{url('sandalias/accesorios')}}" >
+	accesorios
+</a>
+<a href="{{url('sandalias/sandalias-por-menos')}}" class="active">
+	sandalias por menos
 </a>
 @stop
 @section('contenido')
 <div class="row main">
-	<div class="col-sm-8 col-sm-offset-1 no-padding">
+	<div class="col-md-10 col-md-offset-1 ">
 		<div class="row borde">
-			<div class="col-sm-10 no-padding">
-				<p class="bloque tu-look center-block text-center">
-					TU<span>LOOK</span><br>
+			<div class="col-md-12 ">
+				<p class="bloque tu-look center-block text-center sandalias-menos">
+					SANDALIAS
 					<small>POR<span>MENOS</span></small>
 				</p>
 				<div class="row grid">
-					<div class="col-sm-5">
-						<a href="#"  class="abrir-look" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-azis.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-md-6">
+						<a href="#"  >
+							<img src="{{url('img/sandalias-por-menos/aziz-1.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
-					<div class="col-sm-5">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-brigitte-naux.jpg')}}" alt="" class="img-responsive center-block" />
-						</a>
-					</div>
-				</div>
-				<div class="row grid">
-					<div class="col-sm-5">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-marquis.jpg')}}" alt="" class="img-responsive center-block" />
-						</a>
-					</div>
-					<div class="col-sm-5">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-navigata.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/aziz-2.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-5">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-barbados.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/index-1.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
-					<div class="col-sm-5">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-index.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-md-6">
+						<a href="#">
+							<img src="{{url('img/sandalias-por-menos/index-2.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
 				</div>
-				<p>
-					<br>
-				</p>
-				<p class="bloque tu-look-por-menos center-block text-center">
-					TU <span>LOOK</span> POR <span>MENOS</span>
-					<small>
-						¡Elige tu <span>look de verano</span> por menos de <span class="precio">S/.150!</span>
-					</small>
-				</p>
+				<div class="row grid">
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/index-3.jpg')}}" alt="" class="img-responsive center-block" />
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/navigata-1.jpg')}}" alt="" class="img-responsive center-block" />
+						</a>
+					</div>
+				</div>
+				<div class="row grid">
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/index-4.jpg')}}" alt="" class="img-responsive center-block" />
+						</a>
+					</div>
+					<div class="col-md-6">
+						<a href="#" >
+							<img src="{{url('img/sandalias-por-menos/aziz-3.jpg')}}" alt="" class="img-responsive center-block" />
+						</a>
+					</div>
+				</div>
+				<div  class="row grid banner-sandalias-marcas">
+					<div class="col-md-6">
+						<a href="{{url('sandalias/sandalias-por-menos')}}"><img src="{{url('img/big/ninos.jpg')}}" alt="" class="img-responsive" /></a>
+					</div>
+					<div class="col-md-6">
+						<a href="{{url('sandalias/ninos')}}"><img src="{{url('img/big/index.jpg')}}" alt="" class="img-responsive" /></a>
+					</div>
+				</div>
 				<p class="bloque para-elegir-mas center-block text-center">
 					para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>
 				</p>

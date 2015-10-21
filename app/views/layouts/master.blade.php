@@ -63,13 +63,13 @@
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-xs-12 col-md-6">
+								<div class="col-xs-12 col-md-4">
 									<a href="{{url()}}" class="logo">
 										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs">
 										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive visible-xs center-block">
 									</a>
 								</div>
-								<div class="hidden-xs hidden-sm col-md-6">
+								<div class="hidden-xs hidden-sm col-md-8">
 									<p class="text-right menu">
 										@yield('menu')
 									</p>

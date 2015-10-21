@@ -18,19 +18,19 @@
 @stop
 @section('contenido')
 <div class="row main">
-	<div class="col-sm-8 col-sm-offset-1 no-padding">
+	<div class="col-md-10 col-md-offset-1 ">
 		<div class="row borde">
-			<div class="col-sm-10 no-padding">
+			<div class="col-md-12 ">
 				<p class="bloque nuevas-formas accesorios center-block text-center">
 					+ACCE<span>SORIOS</span>
 				</p>
 				<div id="marquis" class="row">
-					<div class="col-sm-4">
+					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block">
 						</p>
 					</div>
-					<div class="col-sm-6 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content">
 						<span id="prev-marquis" class="atras"></span>
 						<span id="next-marquis" class="siguiente"></span>
 						<ul class="bxslider-marquis">
@@ -57,12 +57,12 @@
 					<br>
 				</p>
 				<div id="cacharel" class="row">
-					<div class="col-sm-4">
+					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block">
 						</p>
 					</div>
-					<div class="col-sm-6 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content">
 						<span id="prev-cacharel" class="atras"></span>
 						<span id="next-cacharel" class="siguiente"></span>
 						<ul class="bxslider-cacharel">
@@ -89,12 +89,12 @@
 					<br>
 				</p>
 				<div id="index" class="row">
-					<div class="col-sm-4">
+					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block">
 						</p>
 					</div>
-					<div class="col-sm-6 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content">
 						<span id="prev-index" class="atras"></span>
 						<span id="next-index" class="siguiente"></span>
 						<ul class="bxslider-index">
@@ -117,11 +117,11 @@
 						</ul>
 					</div>
 				</div>
-				<div  class="row banner-sandalias-marcas">
-					<div class="col-sm-5">
+				<div  class="row grid banner-sandalias-marcas">
+					<div class="col-md-6">
 						<a href="{{url('sandalias/sandalias-por-menos')}}"><img src="{{url('img/big/ninos.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-md-6">
 						<a href="{{url('sandalias/ninos')}}"><img src="{{url('img/big/index.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
 				</div>

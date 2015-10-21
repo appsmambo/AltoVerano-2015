@@ -1,6 +1,3 @@
-.col-sm-3.footer-sandalias{
-	width:33.3%;
-}
 .bloque.nuevas-formas.accesorios {
 	font-size: 19px;
 	letter-spacing: 3px;
@@ -24,10 +21,22 @@
 	float: right;
 	display: inline-block;
 }
+.accesorios-slider-banner{
+	width: 38%;
+}
 .accesorios-slider-content{
 	padding: 0;
+	width: 62%;
 }
 .banner-sandalias-marcas{
 	margin-top: 40px;
-	margin-bottom: 20px;
+}
+.interna .accesorios-slider-content .atras {
+    left: 1.5%;
+}
+.interna .accesorios-slider-content .siguiente {
+    right: 1.5%;
+}
+.bloque.sandalias-menos{
+	letter-spacing: 2px;
 }
