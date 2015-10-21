@@ -9,15 +9,15 @@
 @stop
 @section('contenido')
 <div class="row main">
-	<div class="col-sm-8 col-sm-offset-1 no-padding">
+	<div class="col-lg-10 col-lg-offset-1">
 		<div class="row borde">
-			<div class="col-sm-10 no-padding">
+			<div class="col-sm-12">
 				<p class="bloque nuevas-formas center-block text-center">
 					NUEVAS<br>
 					<span>FOR</span><span>MAS</span>
 				</p>
 				<div id="maxi-dress" class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<p class="marca">
 							<img src="{{url('img/maxi-dress.png')}}" alt="" class="img-responsive">
 							<br>
@@ -26,7 +26,7 @@
 							Las opciones se adaptan a todos los estilos y siluetas. ¡Elige el tuyo!
 						</p>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<span id="prev-maxidress" class="atras"></span>
 						<span id="next-maxidress" class="siguiente"></span>
 						<ul class="bxslider-maxidress">
@@ -52,7 +52,7 @@
 					<br>
 				</p>
 				<div id="palazos" class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<p class="marca">
 							<img src="{{url('img/palazos.png')}}" alt="" class="img-responsive">
 							<br>
@@ -61,7 +61,7 @@
 							Las calurosas tardes que están por venir.
 						</p>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<span id="prev-palazos" class="atras"></span>
 						<span id="next-palazos" class="siguiente"></span>
 						<ul class="bxslider-palazos">
@@ -75,7 +75,7 @@
 					<br>
 				</p>
 				<div id="sexy-top" class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<p class="marca">
 							<img src="{{url('img/sexy-top.png')}}" alt="" class="img-responsive">
 							<br>
@@ -83,7 +83,7 @@
 							Existen miles de posibilidades para combinarlos, pruébalas todas y elige el ideal para ti.
 						</p>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<span id="prev-sexy-top" class="atras"></span>
 						<span id="next-sexy-top" class="siguiente"></span>
 						<ul class="bxslider-sexy-top">
@@ -97,7 +97,7 @@
 					<br>
 				</p>
 				<div id="enteritos" class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<p class="marca">
 							<img src="{{url('img/enteritos.png')}}" alt="" class="img-responsive">
 							<br>
@@ -106,7 +106,7 @@
 							casual o formal y estiliza la figura.
 						</p>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<span id="prev-enteritos" class="atras"></span>
 						<span id="next-enteritos" class="siguiente"></span>
 						<ul class="bxslider-enteritos">
@@ -120,7 +120,7 @@
 					<br>
 				</p>
 				<div id="shorts" class="row">
-					<div class="col-sm-2">
+					<div class="col-sm-3">
 						<p class="marca">
 							<img src="{{url('img/shorts.png')}}" alt="" class="img-responsive">
 							<br>
@@ -130,7 +130,7 @@
 							disfrútala.
 						</p>
 					</div>
-					<div class="col-sm-8">
+					<div class="col-sm-9">
 						<span id="prev-shorts" class="atras"></span>
 						<span id="next-shorts" class="siguiente"></span>
 						<ul class="bxslider-shorts">

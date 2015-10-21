@@ -9,44 +9,44 @@
 @stop
 @section('contenido')
 <div class="row main">
-	<div class="col-sm-8 col-sm-offset-1 no-padding">
+	<div class="col-lg-10 col-lg-offset-1">
 		<div class="row borde">
-			<div class="col-sm-10 no-padding">
+			<div class="col-sm-12">
 				<p class="bloque tu-look center-block text-center">
 					TU<span>LOOK</span><br>
 					<small>POR<span>MENOS</span></small>
 				</p>
 				<div class="row grid">
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#"  class="abrir-look" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-azis.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-brigitte-naux.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-marquis.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-navigata.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-barbados.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>
 					</div>
-					<div class="col-sm-5">
+					<div class="col-sm-6">
 						<a href="#" data-bloque="#look-azis">
 							<img src="{{url('img/tu-look-por-menos/look-index.jpg')}}" alt="" class="img-responsive center-block" />
 						</a>

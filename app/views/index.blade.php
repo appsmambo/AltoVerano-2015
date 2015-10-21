@@ -10,10 +10,11 @@
 @section('contenido')
 <div class="contenedor-fijo">
 	<div id="banner" class="nivoSlider">
-		<img src="{{url('img/banner/navigata.jpg')}}" alt="" />
-		<img src="{{url('img/banner/index.jpg')}}" alt="" />
-		<img src="{{url('img/banner/marquis.jpg')}}" alt="" />
-		<img src="{{url('img/banner/barbados.jpg')}}" alt="" />
+		<img src="{{url('img/banner/sjp-yo-elijo-verano.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-las-mejores-marcas.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-navigata.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-marquis.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-index.jpg')}}" alt="" />
 	</div>
 	<div class="marcas hidden-xs">
 		<span id="slider-prev" class="atras"></span>
@@ -38,36 +39,42 @@
 			<div class="col-md-12">
 				<div class="row grid">
 					<div class="col-sm-6">
-						<a href="{{url('nuevas-formas')}}#maxi-dress">
+						<a href="{{url('nuevas-formas')}}#maxi-dress" class="categorias">
 							<img src="{{url('img/categorias/maxi-dress.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="{{url('nuevas-formas')}}#palazos">
+						<a href="{{url('nuevas-formas')}}#palazos" class="categorias">
 							<img src="{{url('img/categorias/palazos.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
 					<div class="col-sm-6">
-						<a href="{{url('nuevas-formas')}}#sexy-top">
+						<a href="{{url('nuevas-formas')}}#sexy-top" class="categorias">
 							<img src="{{url('img/categorias/sexy-top.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="{{url('nuevas-formas')}}#enteritos">
+						<a href="{{url('nuevas-formas')}}#enteritos" class="categorias">
 							<img src="{{url('img/categorias/enteritos.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
 					<div class="col-sm-6">
-						<a href="{{url('nuevas-formas')}}#shorts">
+						<a href="{{url('nuevas-formas')}}#shorts" class="categorias">
 							<img src="{{url('img/categorias/shorts.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 					<div class="col-sm-6">
 						<img src="{{url('img/categorias/marquis.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 					</div>
 				</div>
 				<div class="row grid">
