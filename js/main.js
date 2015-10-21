@@ -1,12 +1,10 @@
 var altoContenedor, anchoWindow;
 function home() {
-	var resta;
+	var resta = 0;
 	anchoWindow = $(window).width();
-	if (anchoWindow < 768)
-		resta = 20;
-	else
+	if (anchoWindow >= 768)
 		resta = 40;
-	altoContenedor = $('.contenedor-fijo').height() - resta;
+	altoContenedor = parseInt($('.contenedor-fijo').height()) - resta;
 	$('.home .borde').css('padding-top', altoContenedor + 'px');
 }
 $(window).load(function(){
@@ -265,11 +263,13 @@ $(window).load(function(){
 		nextText:'',
 		prevText:''
 	});
+	home();
 });
 
 $(function(){
 	$('.toggle-nav').click(function() {
-		$('body').toggleClass('show-nav'); 
+		$(this).toggleClass('cerrar');
+		$('body').toggleClass('show-nav');
 		return false;
 	});
 	$(window).resize(function() {

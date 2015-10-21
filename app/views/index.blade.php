@@ -1,12 +1,4 @@
 @extends("layouts/master")
-@section('menu')
-<a href="{{url('tu-look-por-menos')}}">
-	tu look por menos
-</a>
-<a href="{{url('nuevas-formas')}}">
-	nuevas formas
-</a>
-@stop
 @section('contenido')
 <div class="contenedor-fijo">
 	<div id="banner" class="nivoSlider">
@@ -34,57 +26,69 @@
 </div>
 <div class="clearfix"></div>
 <div class="row main">
-	<div class="col-lg-10 col-lg-offset-1">
+	<div class="col-xs-10 col-xs-offset-1">
 		<div class="row borde">
-			<div class="col-md-12">
+			<div class="col-xs-12">
 				<div class="row grid">
-					<div class="col-sm-6">
+					<div class="col-xs-6">
 						<a href="{{url('nuevas-formas')}}#maxi-dress" class="categorias">
-							<img src="{{url('img/categorias/maxi-dress.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/categorias/maxi-dress.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+							<img src="{{url('img/categorias/maxi-dress-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+							<img src="{{url('img/categorias/maxi-dress-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 						</a>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-xs-6">
 						<a href="{{url('nuevas-formas')}}#palazos" class="categorias">
-							<img src="{{url('img/categorias/palazos.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/categorias/palazos.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+							<img src="{{url('img/categorias/palazos-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+							<img src="{{url('img/categorias/palazos-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-6">
+					<div class="col-xs-6">
 						<a href="{{url('nuevas-formas')}}#sexy-top" class="categorias">
-							<img src="{{url('img/categorias/sexy-top.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/categorias/sexy-top.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+							<img src="{{url('img/categorias/sexy-top-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+							<img src="{{url('img/categorias/sexy-top-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 						</a>
 					</div>
-					<div class="col-sm-6">
+					<div class="col-xs-6">
 						<a href="{{url('nuevas-formas')}}#enteritos" class="categorias">
-							<img src="{{url('img/categorias/enteritos.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/categorias/enteritos.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+							<img src="{{url('img/categorias/enteritos-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+							<img src="{{url('img/categorias/enteritos-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-6">
+					<div class="col-xs-6">
 						<a href="{{url('nuevas-formas')}}#shorts" class="categorias">
-							<img src="{{url('img/categorias/shorts.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/categorias/shorts.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+							<img src="{{url('img/categorias/shorts-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+							<img src="{{url('img/categorias/shorts-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 						</a>
 					</div>
-					<div class="col-sm-6">
-						<img src="{{url('img/categorias/marquis.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-xs-6">
+						<img src="{{url('img/categorias/marquis.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
+						<img src="{{url('img/categorias/marquis-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
+						<img src="{{url('img/categorias/marquis-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
 							<span></span>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-12">
+					<div class="col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9">
 							<iframe src="https://www.youtube.com/embed/zJThH-DXMkw" class="embed-responsive-item"></iframe>
 						</div>
 					</div>
 				</div>
-				<h2 class="text-center">
+				<h2 class="text-center hidden-xs">
 					MIRA Y <span>ELIGE TU LOOK!</span> Todas nuestras marcas en todas sus formas, elige las tuyas.
 				</h2>
 				<p class="bloque tu-look-por-menos center-block text-center">

@@ -285,10 +285,10 @@ a.categorias {
 	.home .borde {
 		padding-top:466px;
 	}
-	.row.grid {
+	.row.grid a {
 		margin-bottom:20px
 	}
-	.row.grid:last-child {
+	.row.grid:last-child a {
 		margin-bottom:0
 	}
 
@@ -359,7 +359,61 @@ p.marca {
 		font-size:8px
 	}
 
-@media (max-width:991px) {
+@media(max-width:481px) {
+	.bloque.tu-look-por-menos {
+		font-size:14px;
+		letter-spacing:3px;
+		padding:28px 0
+	}
+	.bloque.tu-look-por-menos small {
+		font-size:12px;
+		margin-top:14px
+	}
+	.bloque.tu-look {
+		font-size:20px;
+		letter-spacing:6px;
+		line-height:20px;
+		margin-bottom:20px;
+		margin-top:-18px;
+		padding:28px 0;
+		width:178px
+	}
+	.bloque.tu-look small {
+		font-size:14px;
+		letter-spacing:3px
+	}
+	.bloque.nuevas-formas {
+		font-size:16px;
+		letter-spacing:8px;
+		line-height:24px;
+		margin-bottom:20px;
+		margin-top:-18px;
+		padding:25px 0;
+		width:178px
+	}
+	.bloque.nuevas-formas span {
+		font-size:20px;
+		letter-spacing:3px
+	}
+	span.precio {
+		font-size:16px
+	}
+	.main {
+		padding-bottom:40px
+	}
+	.interna .main {
+		margin-top:25px;
+		padding-bottom:0
+	}
+}
+
+@media(max-width:767px) {
+	.bloque {
+		margin-top:15px
+	}
+}
+
+@media(max-width:991px) {
 	header {
 		height:59px
 	}
@@ -373,6 +427,12 @@ p.marca {
 	}
 	.home .borde {
 		padding-top:125px
+	}
+	.borde {
+		margin-top:10px;
+		-webkit-box-shadow:inset 0px 0px 0px 11px rgba(231,231,232,0.5);
+		-moz-box-shadow:inset 0px 0px 0px 11px rgba(231,231,232,0.5);
+		box-shadow:inset 0px 0px 0px 11px rgba(231,231,232,0.5);
 	}
 }
 
@@ -442,13 +502,14 @@ p.marca {
 #body-nav ul li a {
 	border:none;
 	color:#000;
-	display:block;
+	display:inline-block;
+	text-transform:uppercase;
 	font-family:'AvenirBlack';
-	font-size:28px;
+	font-size:24px;
 	height:100px;
 	line-height:100px;
 	opacity:0;
-	text-decoration:none !important;
+	text-decoration:none;
 	-webkit-transition:all 200ms cubic-bezier(.17,.67,.38,1.46);
 	-moz-transition:all 200ms cubic-bezier(.17,.67,.38,1.46);
 	transition:all 200ms cubic-bezier(.17,.67,.38,1.46);
@@ -457,6 +518,9 @@ p.marca {
 	-ms-transform:translateY(-200px);
 	-o-transform:translateY(-200px);
 	transform:translateY(-200px);
+}
+#body-nav ul li a.active {
+	text-decoration:underline
 }
 .show-nav #body-nav ul li a {
 	opacity: 1;
@@ -507,11 +571,18 @@ p.marca {
 	position: relative;
 }
 .toggle-nav {
+	background-image:url('../img/boton-menu.png');
+	background-repeat:no-repeat;
+	width:32px;
+	height:26px;
 	left: auto;
 	right: 24px;
-	position: fixed;
+	position: absolute;
 	z-index: 9999999;
 	top:14px
+}
+.toggle-nav.cerrar {
+	background-image:url('../img/boton-cerrar.png')
 }
 .toggle-nav .option {
 	left: auto;

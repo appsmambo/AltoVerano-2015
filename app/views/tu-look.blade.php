@@ -1,58 +1,64 @@
 @extends("layouts/master")
-@section('menu')
-<a href="{{url('tu-look-por-menos')}}" class="active">
-	tu look por menos
-</a>
-<a href="{{url('nuevas-formas')}}">
-	nuevas formas
-</a>
-@stop
 @section('contenido')
 <div class="row main">
-	<div class="col-lg-10 col-lg-offset-1">
+	<div class="col-xs-10 col-xs-offset-1">
 		<div class="row borde">
-			<div class="col-sm-12">
+			<div class="col-xs-12">
 				<p class="bloque tu-look center-block text-center">
 					TU<span>LOOK</span><br>
 					<small>POR<span>MENOS</span></small>
 				</p>
 				<div class="row grid">
-					<div class="col-sm-6">
-						<a href="#"  class="abrir-look" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-azis.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/1-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
-					<div class="col-sm-6">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-brigitte-naux.jpg')}}" alt="" class="img-responsive center-block" />
-						</a>
-					</div>
-				</div>
-				<div class="row grid">
-					<div class="col-sm-6">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-marquis.jpg')}}" alt="" class="img-responsive center-block" />
-						</a>
-					</div>
-					<div class="col-sm-6">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-navigata.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/2-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-sm-6">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-barbados.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/3-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
-					<div class="col-sm-6">
-						<a href="#" data-bloque="#look-azis">
-							<img src="{{url('img/tu-look-por-menos/look-index.jpg')}}" alt="" class="img-responsive center-block" />
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/4-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
-				<p>
+				<div class="row grid">
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/5-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
+						</a>
+					</div>
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/6-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
+						</a>
+					</div>
+				</div>
+				<div class="row grid">
+					<div class="col-xs-6">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+							<img src="{{url('img/tu-look-por-menos/7-lista.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
+						</a>
+					</div>
+				</div>
+				<p class="hidden-xs">
 					<br>
 				</p>
 				<p class="bloque tu-look-por-menos center-block text-center">
