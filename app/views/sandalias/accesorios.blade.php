@@ -35,7 +35,7 @@
 						<span id="next-marquis" class="siguiente"></span>
 						<ul class="bxslider-marquis">
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-marquis-1.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">
@@ -43,7 +43,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-marquis-2.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">
@@ -67,7 +67,7 @@
 						<span id="next-cacharel" class="siguiente"></span>
 						<ul class="bxslider-cacharel">
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-cacharel-1.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">
@@ -75,7 +75,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-cacharel-2.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">
@@ -99,7 +99,7 @@
 						<span id="next-index" class="siguiente"></span>
 						<ul class="bxslider-index">
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-index-1.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">
@@ -107,7 +107,7 @@
 								</p>
 							</li>
 							<li>
-								<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
+								<a href="#" class="abrir-sandalias" data-bloque="#maxidress-1">
 									<img src="{{url('img/accesorios/lentes-index-2.jpg')}}" alt="" class="center-block" />
 								</a>
 								<p class="accesorios-slider">

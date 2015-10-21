@@ -40,3 +40,12 @@
 .bloque.sandalias-menos{
 	letter-spacing: 2px;
 }
+.sandalias-temporada{
+	font-family:'AvenirBook';
+}
+.bloque.nueva-temporada{
+	letter-spacing: 13px;
+}
+.bloque.nueva-temporada small{
+	letter-spacing: 3px;
+}

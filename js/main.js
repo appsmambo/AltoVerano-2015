@@ -116,6 +116,22 @@ $(window).load(function(){
 			scrolling:'no'
 		});
 	});
+	$('.abrir-sandalias').click(function() {
+		var bloque;
+		bloque = $(this).data('bloque');
+		$.fancybox({
+			padding:0,
+			margin:0,
+			type:'inline',
+			href:bloque,
+			maxWidth:320,
+			maxHeight:450,
+			fitToView:true,
+			autoSize:false,
+			closeClick:false,
+			scrolling:'no'
+		});
+	});
 	$('.bxslider-marquis').bxSlider({
 		pager:false,
 		maxSlides:2,
@@ -151,11 +167,101 @@ $(window).load(function(){
 	});
 	$('.bxslider-minimal').bxSlider({
 		pager:false,
-		maxSlides:2,
+		maxSlides:3,
 		moveSlides:1,
 		slideWidth:180,
 		nextSelector:'#next-minimal',
 		prevSelector:'#prev-minimal',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-gladiadoras').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-gladiadoras',
+		prevSelector:'#prev-gladiadoras',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-deportivos').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-deportivos',
+		prevSelector:'#prev-deportivos',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-theuglyshoes').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-theuglyshoes',
+		prevSelector:'#prev-theuglyshoes',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-masculine').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-masculine',
+		prevSelector:'#prev-masculine',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-minibag').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-minibag',
+		prevSelector:'#prev-minibag',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-suecos').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-suecos',
+		prevSelector:'#prev-suecos',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-alpargatas').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-alpargatas',
+		prevSelector:'#prev-alpargatas',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-blancos').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-blancos',
+		prevSelector:'#prev-blancos',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-pasteles').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-pasteles',
+		prevSelector:'#prev-pasteles',
 		nextText:'',
 		prevText:''
 	});
