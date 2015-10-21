@@ -1,17 +1,9 @@
 @extends("layouts/master")
-@section('menu')
-<a href="{{url('tu-look-por-menos')}}">
-	tu look por menos
-</a>
-<a href="{{url('nuevas-formas')}}" class="active">
-	nuevas formas
-</a>
-@stop
 @section('contenido')
 <div class="row main">
-	<div class="col-lg-10 col-lg-offset-1">
+	<div class="col-xs-10 col-xs-offset-1">
 		<div class="row borde">
-			<div class="col-sm-12">
+			<div class="col-xs-12">
 				<p class="bloque nuevas-formas center-block text-center">
 					NUEVAS<br>
 					<span>FOR</span><span>MAS</span>
@@ -21,9 +13,11 @@
 						<p class="marca">
 							<img src="{{url('img/maxi-dress.png')}}" alt="" class="img-responsive">
 							<br>
-							Ligero, fresco, alegre y romántico.<br>
-							Con escote o cuello halter, estampado o color entero, con volantes o camisero…<br>
-							Las opciones se adaptan a todos los estilos y siluetas. ¡Elige el tuyo!
+							El incondicional.<br>
+							Escote o cuello halter, estampado o color entero,<br>
+							con volantes o camisero…<br>
+							Las opciones son infinitas.<br>
+							¡Elige el tuyo!
 						</p>
 					</div>
 					<div class="col-sm-9">
@@ -56,9 +50,9 @@
 						<p class="marca">
 							<img src="{{url('img/palazos.png')}}" alt="" class="img-responsive">
 							<br>
-							Cómodo, fresco,<br>femenino e<br>inevitablemente effortless.<br>
-							Un look relajado y agradable para<br>
-							Las calurosas tardes que están por venir.
+							Cómodo, fresco, femenino<br>
+							e inevitablemente effortless.<br>
+							Un look relajado y agradable para las calurosas tardes de verano.
 						</p>
 					</div>
 					<div class="col-sm-9">
@@ -79,8 +73,8 @@
 						<p class="marca">
 							<img src="{{url('img/sexy-top.png')}}" alt="" class="img-responsive">
 							<br>
-							Cut out, shoulder off,<br>crop top o de espalda descubierta.<br>
-							Existen miles de posibilidades para combinarlos, pruébalas todas y elige el ideal para ti.
+							Shoulder off, crop top o de espalda descubierta. Existen miles de posibilidades para combinarlos, pruébalos todos<br>
+							y elige el ideal para ti.
 						</p>
 					</div>
 					<div class="col-sm-9">
@@ -101,9 +95,9 @@
 						<p class="marca">
 							<img src="{{url('img/enteritos.png')}}" alt="" class="img-responsive">
 							<br>
-							Versátil, práctico y femenino.<br>
-							Es la prenda esencial de este verano, puede llevarse con un estilo<br>
-							casual o formal y estiliza la figura.
+							Versátil, práctico y muy femenino, es la prenda<br>
+							esencial de este verano.<br>
+							Puedes llevarlo casual o informal, depende de los accesorios.
 						</p>
 					</div>
 					<div class="col-sm-9">
@@ -124,10 +118,9 @@
 						<p class="marca">
 							<img src="{{url('img/shorts.png')}}" alt="" class="img-responsive">
 							<br>
-							Alargan las piernas, marcan la cintura y son el clásico de todos los<br>
-							veranos. Los favoritos de la playa ahora invaden la ciudad.<br>
-							La vida es short,<br>
-							disfrútala.
+							Alargan las piernas,<br>
+							marcan la cintura y son<br>
+							el clásico de todos los veranos. Los favoritos de la playa ahora invaden la ciudad. La vida es short, disfrútala.
 						</p>
 					</div>
 					<div class="col-sm-9">

@@ -48,30 +48,56 @@
 		</h1>
 		<nav id="body-nav">
 			<ul>
-				<li><a href="https://scotch.io">Scotchy scotch scotch</a></li>
-				<li><a href="https://scotch.io">I <i class="fa fa-heart" style="color: pink;"></i> scotch</a></li>
-				<li><a href="http://twitter.com/nickforthought"><i class="fa fa-twitter"></i> @nickforthought</a></li>
-				<li><a href="http://twitter.com/scotch_io"><i class="fa fa-twitter"></i> @scotch_io</a></li>
+				<li>
+					<a href="{{url('tu-look-por-menos')}}" class="{{ (Route::current()->getName() == 'tuLook') ? 'active' : '' }}">
+						tu look por menos
+					</a>
+				</li>
+				<li>
+					<a href="{{url('nuevas-formas')}}" class="{{ (Route::current()->getName() == 'nuevasFormas') ? 'active' : '' }}">
+						nuevas formas
+					</a>
+				</li>
+				<li>
+					<a href="#" target="_blank">
+						<img src="{{url('img/social-facebook.png')}}" alt="facebook">
+					</a>
+					<a href="#" target="_blank">
+						<img src="{{url('img/social-youtube.png')}}" alt="youtube">
+					</a>
+					<a href="#" target="_blank">
+						<img src="{{url('img/social-twitter.png')}}" alt="twitter">
+					</a>
+					<a href="#" target="_blank">
+						<img src="{{url('img/social-instagram.png')}}" alt="instagram">
+					</a>
+					<a href="#" target="_blank">
+						<img src="{{url('img/social-pinterest.png')}}" alt="pinterest">
+					</a>
+				</li>
 			</ul>
 		</nav>
 		<div class="site-wrap">
 			<div class="push-wrap">
-				<a href="#" class="toggle-nav visible-xs visible-sm">
-					<img src="{{url('img/boton-menu.png')}}" alt="">
-				</a>
+				<a href="#" class="toggle-nav visible-xs"></a>
 				<div id="content">
 					<header>
 						<section class="container">
 							<div class="row vertical-align">
-								<div class="col-xs-12 col-md-4">
+								<div class="col-xs-12 col-sm-4">
 									<a href="{{url()}}" class="logo">
-										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs">
-										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive visible-xs center-block">
+										<img src="{{url('img/logo.png')}}" alt="" class="img-responsive pull-left hidden-xs hidden-sm">
+										<img src="{{url('img/logo-mobile.png')}}" alt="" class="img-responsive pull-left visible-xs visible-sm">
 									</a>
 								</div>
-								<div class="hidden-xs hidden-sm col-md-8">
+								<div class="hidden-xs col-sm-8">
 									<p class="text-right menu">
-										@yield('menu')
+										<a href="{{url('tu-look-por-menos')}}" class="{{ (Route::current()->getName() == 'tuLook') ? 'active' : '' }}">
+											tu look por menos
+										</a>
+										<a href="{{url('nuevas-formas')}}" class="{{ (Route::current()->getName() == 'nuevasFormas') ? 'active' : '' }}">
+											nuevas formas
+										</a>
 									</p>
 								</div>
 							</div>
@@ -82,7 +108,7 @@
 						@yield('contenido')
 					</section>
 					<div class="clearfix"></div>
-					<footer>
+					<footer class="hidden-xs">
 						<section class="container">
 							<p class="text-center">
 								<a href="#" target="_blank">
