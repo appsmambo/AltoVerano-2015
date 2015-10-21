@@ -149,6 +149,16 @@ $(window).load(function(){
 		nextText:'',
 		prevText:''
 	});
+	$('.bxslider-minimal').bxSlider({
+		pager:false,
+		maxSlides:2,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-minimal',
+		prevSelector:'#prev-minimal',
+		nextText:'',
+		prevText:''
+	});
 });
 
 $(function(){

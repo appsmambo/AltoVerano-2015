@@ -33,12 +33,12 @@ class HomeController extends BaseController {
 	
 	public function getSandaliasNuevaTemporada()
 	{
-		return View::make('sandalias.index')->with('clase', $this->_clase);
+		return View::make('sandalias.nueva')->with('clase', $this->_clase);
 	}
 	
 	public function getSandaliasNinos()
 	{
-		return View::make('sandalias.index')->with('clase', $this->_clase);
+		return View::make('sandalias.ninos')->with('clase', $this->_clase);
 	}
 	
 	public function getSandaliasAccesorios()
