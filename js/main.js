@@ -1,4 +1,6 @@
 var altoContenedor, anchoWindow;
+var sliderMaxiDress;
+
 function home() {
 	var resta = 0;
 	anchoWindow = $(window).width();
@@ -7,6 +9,7 @@ function home() {
 	altoContenedor = parseInt($('.contenedor-fijo').height()) - resta;
 	$('.home .borde').css('padding-top', altoContenedor + 'px');
 }
+
 $(window).load(function(){
 	$('#banner').nivoSlider({
 		effect:"boxRandom",
@@ -32,7 +35,14 @@ $(window).load(function(){
 		nextText:'',
 		prevText:''
 	});
-	$('.bxslider-maxidress').bxSlider({
+	$('.bxslider-marcas').bxSlider({
+		auto:true,
+		pager:false,
+		controls:false,
+		maxSlides:1,
+		moveSlides:1
+	});
+	sliderMaxiDress = $('.bxslider-maxidress').bxSlider({
 		pager:false,
 		maxSlides:3,
 		moveSlides:1,
@@ -271,6 +281,12 @@ $(function(){
 		$(this).toggleClass('cerrar');
 		$('body').toggleClass('show-nav');
 		return false;
+	});
+	$('.top5 .boton').click(function() {
+		var bloque = $(this).data('bloque');
+		$(this).toggleClass('cerrar');
+		$('.bx-viewport').css('height', 'auto');
+		$(bloque).slideToggle('slow');
 	});
 	$(window).resize(function() {
 		home();

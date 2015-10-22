@@ -64,7 +64,7 @@
 				<p class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>
 					<small>
-						¡Elige tu <span>look de verano</span> por menos de <span class="precio">S/.150!</span>
+						¡Elige tu <span>look del verano</span> a precios increíbles
 					</small>
 				</p>
 				<p class="bloque para-elegir-mas center-block text-center">
