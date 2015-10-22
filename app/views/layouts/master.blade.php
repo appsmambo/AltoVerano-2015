@@ -9,7 +9,7 @@
 		<link href="{{url('css/nivo-slider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.fancybox.css')}}" rel="stylesheet">
-		<link href="{{url('css/main.css')}}" rel="stylesheet">
+		<link href="{{url('css/main.css?v=6')}}" rel="stylesheet">
 		@yield('estilos')
 		<script src="{{url('js/queryloader2.min.js')}}"></script>
 		<script type="text/javascript">
@@ -40,7 +40,7 @@
 		<script src="{{url('js/jquery.nivo.slider.pack.js')}}"></script>
 		<script src="{{url('js/jquery.bxslider.min.js')}}"></script>
 		<script src="{{url('js/jquery.fancybox.pack.js')}}"></script>
-		<script src="{{url('js/main.js')}}"></script>
+		<script src="{{url('js/main.js?v=9')}}"></script>
 	</head>
 	<body class="{{$clase}}">
 		<h1 class="hidden">
@@ -54,8 +54,8 @@
 					</a>
 				</li>
 				<li>
-					<a href="{{url('nuevas-formas')}}" class="{{ (Route::current()->getName() == 'nuevasFormas') ? 'active' : '' }}">
-						nuevas formas
+					<a href="{{url('top-5-del-verano')}}" class="{{ (Route::current()->getName() == 'top5') ? 'active' : '' }}">
+						top 5 del verano
 					</a>
 				</li>
 				<li>
@@ -95,8 +95,8 @@
 										<a href="{{url('tu-look-por-menos')}}" class="{{ (Route::current()->getName() == 'tuLook') ? 'active' : '' }}">
 											tu look por menos
 										</a>
-										<a href="{{url('nuevas-formas')}}" class="{{ (Route::current()->getName() == 'nuevasFormas') ? 'active' : '' }}">
-											nuevas formas
+										<a href="{{url('top-5-del-verano')}}" class="{{ (Route::current()->getName() == 'top5') ? 'active' : '' }}">
+											top 5 del verano
 										</a>
 									</p>
 								</div>
@@ -111,19 +111,19 @@
 					<footer class="hidden-xs">
 						<section class="container">
 							<p class="text-center">
-								<a href="#" target="_blank">
+								<a href="http://facebook.com/ripleyperu" target="_blank">
 									<img src="{{url('img/social-facebook.png')}}" alt="facebook">
 								</a>
-								<a href="#" target="_blank">
+								<a href="https://www.youtube.com/channel/UCcy8eiFOUYAxYSABOSjGHqA" target="_blank">
 									<img src="{{url('img/social-youtube.png')}}" alt="youtube">
 								</a>
-								<a href="#" target="_blank">
+								<a href="http://twitter.com/ripleyenperu" target="_blank">
 									<img src="{{url('img/social-twitter.png')}}" alt="twitter">
 								</a>
-								<a href="#" target="_blank">
+								<a href="http://instagram.com/ripleyperu" target="_blank">
 									<img src="{{url('img/social-instagram.png')}}" alt="instagram">
 								</a>
-								<a href="#" target="_blank">
+								<a href="http://pinterest.com/ripleyperu" target="_blank">
 									<img src="{{url('img/social-pinterest.png')}}" alt="pinterest">
 								</a>
 							</p>

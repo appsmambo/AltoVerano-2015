@@ -31,7 +31,7 @@
 			<div class="col-xs-12">
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="{{url('nuevas-formas')}}#maxi-dress" class="categorias">
+						<a href="{{url('top-5-del-verano#maxi-dress')}}" class="categorias">
 							<img src="{{url('img/categorias/maxi-dress.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
 							<img src="{{url('img/categorias/maxi-dress-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
 							<img src="{{url('img/categorias/maxi-dress-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
@@ -39,7 +39,7 @@
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="{{url('nuevas-formas')}}#palazos" class="categorias">
+						<a href="{{url('top-5-del-verano#palazos')}}" class="categorias">
 							<img src="{{url('img/categorias/palazos.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
 							<img src="{{url('img/categorias/palazos-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
 							<img src="{{url('img/categorias/palazos-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
@@ -49,7 +49,7 @@
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="{{url('nuevas-formas')}}#sexy-top" class="categorias">
+						<a href="{{url('top-5-del-verano#sexy-top')}}" class="categorias">
 							<img src="{{url('img/categorias/sexy-top.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
 							<img src="{{url('img/categorias/sexy-top-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
 							<img src="{{url('img/categorias/sexy-top-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
@@ -57,7 +57,7 @@
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="{{url('nuevas-formas')}}#enteritos" class="categorias">
+						<a href="{{url('top-5-del-verano#enteritos')}}" class="categorias">
 							<img src="{{url('img/categorias/enteritos.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
 							<img src="{{url('img/categorias/enteritos-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
 							<img src="{{url('img/categorias/enteritos-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
@@ -67,7 +67,7 @@
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="{{url('nuevas-formas')}}#shorts" class="categorias">
+						<a href="{{url('top-5-del-verano#shorts')}}" class="categorias">
 							<img src="{{url('img/categorias/shorts.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
 							<img src="{{url('img/categorias/shorts-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
 							<img src="{{url('img/categorias/shorts-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
@@ -75,10 +75,40 @@
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<img src="{{url('img/categorias/marquis.jpg')}}" alt="" class="img-responsive center-block visible-md visible-lg" />
-						<img src="{{url('img/categorias/marquis-mobile.jpg')}}" alt="" class="img-responsive center-block visible-xs" />
-						<img src="{{url('img/categorias/marquis-tablet.jpg')}}" alt="" class="img-responsive center-block visible-sm" />
-							<span></span>
+						<!--div id="cycler">
+							<img src="{{url('img/marcas/marquis.jpg')}}" alt="" class="active img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER1.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER2.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER3.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER4.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER5.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER6.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER7.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER8.jpg')}}" alt="" class="img-responsive center-block" />
+							<img src="{{url('img/marcas/V-SLIDER9.jpg')}}" alt="" class="img-responsive center-block" />
+						</div-->
+						<div class="slider-marcas center-block">
+							<ul class="bxslider-marcas">
+								<li>
+									<img src="{{url('img/marcas/marquis.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER1.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER2.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER3.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER4.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER5.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+							</ul>
+						</div>
 					</div>
 				</div>
 				<div class="row grid">
@@ -89,12 +119,12 @@
 					</div>
 				</div>
 				<h2 class="text-center hidden-xs">
-					MIRA Y <span>ELIGE TU LOOK!</span> Todas nuestras marcas en todas sus formas, elige las tuyas.
+					ELIGE <span>TUS TOP5</span>
 				</h2>
 				<p class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>
 					<small>
-						¡Elige tu <span>look de verano</span> por menos de <span class="precio">S/.150!</span>
+						<a href="{{url('tu-look-por-menos')}}">Haz clic y encuentra tu <span>look del verano</span> a precios increíbles</a>
 					</small>
 				</p>
 			</div>
