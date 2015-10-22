@@ -6,7 +6,7 @@ Route::get('/tu-look-por-menos', array('as' => 'tuLook', 'uses' => 'HomeControll
 
 
 Route::get('/sandalias', array('as' => 'Sandalias', 'uses' => 'HomeController@getSandalias'));
-Route::get('/sandalias/nueva-temporada', array('as' => 'Sandalias', 'uses' => 'HomeController@getSandaliasNuevaTemporada'));
-Route::get('/sandalias/ninos', array('as' => 'Sandalias', 'uses' => 'HomeController@getSandaliasNinos'));
-Route::get('/sandalias/accesorios', array('as' => 'Sandalias', 'uses' => 'HomeController@getSandaliasAccesorios'));
-Route::get('/sandalias/sandalias-por-menos', array('as' => 'Sandalias', 'uses' => 'HomeController@getSandaliasPorMenos'));
+Route::get('/sandalias/nueva-temporada', array('as' => 'nuevaTemporada', 'uses' => 'HomeController@getSandaliasNuevaTemporada'));
+Route::get('/sandalias/ninos', array('as' => 'ninos', 'uses' => 'HomeController@getSandaliasNinos'));
+Route::get('/sandalias/accesorios', array('as' => 'accesorios', 'uses' => 'HomeController@getSandaliasAccesorios'));
+Route::get('/sandalias/sandalias-por-menos', array('as' => 'sandaliasPorMenos', 'uses' => 'HomeController@getSandaliasPorMenos'));

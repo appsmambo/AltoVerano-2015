@@ -1,21 +1,4 @@
-@extends("layouts/master")
-@section('estilos')
-<link href="{{url('css/sandalias.css')}}" rel="stylesheet">
-@stop
-@section('menu')
-<a href="{{url('sandalias/nueva-temporada')}}">
-	nueva temporada
-</a>
-<a href="{{url('sandalias/ninos')}}">
-	niños
-</a>
-<a href="{{url('sandalias/accesorios')}}" >
-	accesorios
-</a>
-<a href="{{url('sandalias/sandalias-por-menos')}}">
-	sandalias por menos
-</a>
-@stop
+@extends("layouts/sandalias")
 @section('contenido')
 <div class="contenedor-fijo">
 	<div id="banner" class="nivoSlider">

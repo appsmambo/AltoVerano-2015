@@ -1,21 +1,4 @@
 @extends("layouts/master")
-@section('estilos')
-<link href="{{url('css/sandalias.css')}}" rel="stylesheet">
-@stop
-@section('menu')
-<a href="{{url('sandalias/nueva-temporada')}}">
-	nueva temporada
-</a>
-<a href="{{url('sandalias/ninos')}}">
-	niños
-</a>
-<a href="{{url('sandalias/accesorios')}}" >
-	accesorios
-</a>
-<a href="{{url('sandalias/sandalias-por-menos')}}" class="active">
-	sandalias por menos
-</a>
-@stop
 @section('contenido')
 <div class="row main">
 	<div class="col-md-10 col-md-offset-1 ">
