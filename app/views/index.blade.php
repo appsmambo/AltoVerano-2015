@@ -13,7 +13,7 @@
 		<span id="slider-next" class="siguiente"></span>
 		<div class="container-slider center-block">
 			<p class="bloque no-me-conformo center-block text-center">
-				NO ME CONFORMO CON UNA SOLA <span>MARCA</span>
+				YO ELIJO LAS MEJORES <span>MARCAS</span>
 			</p>
 			<ul class="bxslider">
 				<li><img src="{{url('img/marcas/only.png')}}" alt="" class="center-block" /></li>
@@ -114,12 +114,12 @@
 				<div class="row grid">
 					<div class="col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9">
-							<iframe src="https://www.youtube.com/embed/zJThH-DXMkw" class="embed-responsive-item"></iframe>
+							<iframe src="https://www.youtube.com/embed/zYtFMYQ6Aag" class="embed-responsive-item"></iframe>
 						</div>
 					</div>
 				</div>
 				<h2 class="text-center hidden-xs">
-					ELIGE <span>TUS TOP5</span>
+					ELIGE <span>TUS TOP 5</span>
 				</h2>
 				<p class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>

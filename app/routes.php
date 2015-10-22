@@ -1,7 +1,7 @@
 <?php
 
 Route::get('/', array('as' => 'index', 'uses' => 'HomeController@getIndex'));
-Route::get('/top-5-del-verano', array('as' => 'top5', 'uses' => 'HomeController@getNuevasFormas'));
+Route::get('/top-5-del-verano', array('as' => 'top5', 'uses' => 'HomeController@getTop5'));
 Route::get('/tu-look-por-menos', array('as' => 'tuLook', 'uses' => 'HomeController@getTuLook'));
 
 

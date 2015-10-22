@@ -9,7 +9,7 @@
 		<link href="{{url('css/nivo-slider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.fancybox.css')}}" rel="stylesheet">
-		<link href="{{url('css/main.css?v=6')}}" rel="stylesheet">
+		<link href="{{url('css/main.css?v=7')}}" rel="stylesheet">
 		@yield('estilos')
 		<script src="{{url('js/queryloader2.min.js')}}"></script>
 		<script type="text/javascript">
@@ -40,7 +40,7 @@
 		<script src="{{url('js/jquery.nivo.slider.pack.js')}}"></script>
 		<script src="{{url('js/jquery.bxslider.min.js')}}"></script>
 		<script src="{{url('js/jquery.fancybox.pack.js')}}"></script>
-		<script src="{{url('js/main.js?v=9')}}"></script>
+		<script src="{{url('js/main.js?v=10')}}"></script>
 	</head>
 	<body class="{{$clase}}">
 		<h1 class="hidden">

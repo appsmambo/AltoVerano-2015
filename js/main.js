@@ -92,54 +92,6 @@ $(window).load(function(){
 		nextText:'',
 		prevText:''
 	});
-	$('.abrir-layer').click(function() {
-		var bloque;
-		bloque = $(this).data('bloque');
-		$.fancybox({
-			padding:0,
-			margin:0,
-			type:'inline',
-			href:bloque,
-			maxWidth:320,
-			maxHeight:571,
-			fitToView:true,
-			autoSize:false,
-			closeClick:false,
-			scrolling:'no'
-		});
-	});
-	$('.abrir-look').click(function() {
-		var bloque;
-		bloque = $(this).data('bloque');
-		$.fancybox({
-			padding:0,
-			margin:0,
-			type:'inline',
-			href:bloque,
-			maxWidth:478,
-			maxHeight:478,
-			fitToView:true,
-			autoSize:false,
-			closeClick:false,
-			scrolling:'no'
-		});
-	});
-	$('.abrir-sandalias').click(function() {
-		var bloque;
-		bloque = $(this).data('bloque');
-		$.fancybox({
-			padding:0,
-			margin:0,
-			type:'inline',
-			href:bloque,
-			maxWidth:320,
-			maxHeight:450,
-			fitToView:true,
-			autoSize:false,
-			closeClick:false,
-			scrolling:'no'
-		});
-	});
 	$('.bxslider-marquis').bxSlider({
 		pager:false,
 		maxSlides:2,
@@ -280,6 +232,58 @@ $(function(){
 	$('.toggle-nav').click(function() {
 		$(this).toggleClass('cerrar');
 		$('body').toggleClass('show-nav');
+		return false;
+	});
+	$('body').on('click', 'a.abrir-layer', function() {
+	//$('').click(function() {
+		var bloque;
+		bloque = $(this).data('bloque');
+		$.fancybox({
+			padding:0,
+			margin:0,
+			type:'inline',
+			href:bloque,
+			maxWidth:320,
+			maxHeight:571,
+			fitToView:true,
+			autoSize:false,
+			closeClick:false,
+			scrolling:'no'
+		});
+		return false;
+	});
+	$('.abrir-look').click(function() {
+		var bloque;
+		bloque = $(this).data('bloque');
+		$.fancybox({
+			padding:0,
+			margin:0,
+			type:'inline',
+			href:bloque,
+			maxWidth:478,
+			maxHeight:478,
+			fitToView:true,
+			autoSize:false,
+			closeClick:false,
+			scrolling:'no'
+		});
+		return false;
+	});
+	$('.abrir-sandalias').click(function() {
+		var bloque;
+		bloque = $(this).data('bloque');
+		$.fancybox({
+			padding:0,
+			margin:0,
+			type:'inline',
+			href:bloque,
+			maxWidth:320,
+			maxHeight:450,
+			fitToView:true,
+			autoSize:false,
+			closeClick:false,
+			scrolling:'no'
+		});
 		return false;
 	});
 	$('.top5 .boton').click(function() {

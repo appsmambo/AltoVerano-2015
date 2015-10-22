@@ -322,7 +322,7 @@ p.marca {
 		bottom:23px;
 		color:#fff;
 		font-family:'AvenirBook';
-		font-size:15px;
+		font-size:14px;
 		padding:24px 17px 11px;
 		position:absolute;
 		right:23px
@@ -333,8 +333,13 @@ p.marca {
 		padding:25px 13px 23px
 	}
 	.prenda .detalle span {
+		display:block;
 		font-family:'AvenirBlackOblique';
-		font-size:27px
+		font-size:25px;
+		margin-bottom:10px
+	}
+	.prenda .detalle span:last-child {
+		margin-bottom:0
 	}
 	.prenda .detalle small {
 		font-size:20px
@@ -344,7 +349,7 @@ p.marca {
 	}
 	.prenda .detalle .logo {
 		position:absolute;
-		top:-28px;
+		top:-45px;
 		right:-4px
 	}
 	.prenda .lista-prenda {

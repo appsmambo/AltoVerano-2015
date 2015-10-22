@@ -15,9 +15,34 @@ class HomeController extends BaseController {
 		return View::make('index')->with('clase', $this->_clase);
 	}
 	
-	public function getNuevasFormas()
+	public function getTop5()
 	{
-		return View::make('nuevas-formas')->with('clase', $this->_clase);
+		// lista
+		$listaMaxidress = Top5::select(array('codigo', 'marca'))->where('categoria', '=', 'maxi-dress')->orderBy('codigo')->groupBy('codigo')->get();
+		$listaPalazzos = Top5::select(array('codigo', 'marca'))->where('categoria', '=', 'palazzos')->orderBy('codigo')->groupBy('codigo')->get();
+		$listaSexytop = Top5::select(array('codigo', 'marca'))->where('categoria', '=', 'sexy-top')->orderBy('codigo')->groupBy('codigo')->get();
+		$listaEnteritos = Top5::select(array('codigo', 'marca'))->where('categoria', '=', 'enteritos')->orderBy('codigo')->groupBy('codigo')->get();
+		$listaShorts = Top5::select(array('codigo', 'marca'))->where('categoria', '=', 'shorts')->orderBy('codigo')->groupBy('codigo')->get();
+		
+		// detalle
+		$detalleMaxidress = Top5::where('categoria', '=', 'maxi-dress')->orderBy('codigo')->get();
+		$detallePalazzos = Top5::where('categoria', '=', 'palazzos')->orderBy('codigo')->get();
+		$detalleSexytop = Top5::where('categoria', '=', 'sexy-top')->orderBy('codigo')->get();
+		$detalleEnteritos = Top5::where('categoria', '=', 'enteritos')->orderBy('codigo')->get();
+		$detalleShorts = Top5::where('categoria', '=', 'shorts')->orderBy('codigo')->get();
+		
+		return View::make('nuevas-formas')
+			->with('clase', $this->_clase)
+			->with('listaMaxidress', $listaMaxidress)
+			->with('listaPalazzos', $listaPalazzos)
+			->with('listaSexytop', $listaSexytop)
+			->with('listaEnteritos', $listaEnteritos)
+			->with('listaShorts', $listaShorts)
+			->with('detalleMaxidress', $detalleMaxidress)
+			->with('detallePalazzos', $detallePalazzos)
+			->with('detalleSexytop', $detalleSexytop)
+			->with('detalleEnteritos', $detalleEnteritos)
+			->with('detalleShorts', $detalleShorts);
 	}
 	
 	public function getTuLook()

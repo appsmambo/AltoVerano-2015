@@ -5,7 +5,7 @@
 		<div class="row borde">
 			<div class="col-xs-12">
 				<p class="bloque nuevas-formas center-block text-center">
-					TOP5<br>
+					TOP 5<br>
 					<span>DEL</span><span>VERANO</span>
 				</p>
 				<div class="contenedor-nuevas-formas">
@@ -31,30 +31,19 @@
 									<span id="prev-maxidress" class="atras"></span>
 									<span id="next-maxidress" class="siguiente"></span>
 									<ul class="bxslider-maxidress">
+										@foreach ($listaMaxidress as $prenda)
 										<li>
-											<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
-												<img src="{{url('img/nuevas-formas/maxi-dress-tatienne.jpg')}}" alt="" class="center-block" />
+											<a href="#" class="abrir-layer" data-bloque="#maxidress-{{$prenda->codigo}}">
+												<img src="{{url('img/nuevas-formas/'.$prenda->codigo.'-lista.jpg')}}" alt="" class="center-block" />
 											</a>
 										</li>
-										<li>
-											<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
-												<img src="{{url('img/nuevas-formas/maxi-dress-pepe-jeans.jpg')}}" alt="" class="center-block" />
-											</a>
-										</li>
-										<li>
-											<a href="#" class="abrir-layer" data-bloque="#maxidress-1">
-												<img src="{{url('img/nuevas-formas/maxi-dress-marquis.jpg')}}" alt="" class="center-block" />
-											</a>
-										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
 						</div>
-							
 					</div>
-					<p>
-						<br>
-					</p>
+					<p><br></p>
 					<div id="palazos" class="top5">
 						<div class="container">
 							<h2 class="visible-xs visible-sm ">
@@ -75,17 +64,19 @@
 									<span id="prev-palazos" class="atras"></span>
 									<span id="next-palazos" class="siguiente"></span>
 									<ul class="bxslider-palazos">
-										<li><img src="{{url('img/nuevas-formas/palazos-tatienne.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/palazos-marquis.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/palazos-index.jpg')}}" alt="" class="center-block" /></li>
+										@foreach ($listaPalazzos as $prenda)
+										<li>
+											<a href="#" class="abrir-layer" data-bloque="#palazzos-{{$prenda->codigo}}">
+												<img src="{{url('img/nuevas-formas/'.$prenda->codigo.'-lista.jpg')}}" alt="" class="center-block" />
+											</a>
+										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-					<p>
-						<br>
-					</p>
+					<p><br></p>
 					<div id="sexy-top" class="top5">
 						<div class="container">
 							<h2 class="visible-xs visible-sm ">
@@ -97,7 +88,7 @@
 									<p class="marca">
 										<img src="{{url('img/sexy-top.png')}}" alt="" class="img-responsive">
 										<br>
-										Shoulder off, crop top o de espalda descubierta. Existen miles de posibilidades para combinarlos, pruébalos todos<br>
+										Shoulder off, crop top o de espalda descubierta. Existen miles de posibilidades para combinarlos, pruébalas todas<br>
 										y elige el ideal para ti.
 									</p>
 								</div>
@@ -105,17 +96,19 @@
 									<span id="prev-sexy-top" class="atras"></span>
 									<span id="next-sexy-top" class="siguiente"></span>
 									<ul class="bxslider-sexy-top">
-										<li><img src="{{url('img/nuevas-formas/sexy-top-marquis.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/sexy-top-navigata.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/sexy-top-tatienne.jpg')}}" alt="" class="center-block" /></li>
+										@foreach ($listaSexytop as $prenda)
+										<li>
+											<a href="#" class="abrir-layer" data-bloque="#sexytop-{{$prenda->codigo}}">
+												<img src="{{url('img/nuevas-formas/'.$prenda->codigo.'-lista.jpg')}}" alt="" class="center-block" />
+											</a>
+										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-					<p>
-						<br>
-					</p>
+					<p><br></p>
 					<div id="enteritos" class="top5">
 						<div class="container">
 							<h2 class="visible-xs visible-sm ">
@@ -136,17 +129,19 @@
 									<span id="prev-enteritos" class="atras"></span>
 									<span id="next-enteritos" class="siguiente"></span>
 									<ul class="bxslider-enteritos">
-										<li><img src="{{url('img/nuevas-formas/enteritos-marquis.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/enteritos-navigata.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/enteritos-index.jpg')}}" alt="" class="center-block" /></li>
+										@foreach ($listaEnteritos as $prenda)
+										<li>
+											<a href="#" class="abrir-layer" data-bloque="#enteritos-{{$prenda->codigo}}">
+												<img src="{{url('img/nuevas-formas/'.$prenda->codigo.'-lista.jpg')}}" alt="" class="center-block" />
+											</a>
+										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-					<p>
-						<br>
-					</p>
+					<p><br></p>
 					<div id="shorts" class="top5">
 						<div class="container">
 							<h2 class="visible-xs visible-sm ">
@@ -167,17 +162,19 @@
 									<span id="prev-shorts" class="atras"></span>
 									<span id="next-shorts" class="siguiente"></span>
 									<ul class="bxslider-shorts">
-										<li><img src="{{url('img/nuevas-formas/shorts-tatienne.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/shorts-marquis.jpg')}}" alt="" class="center-block" /></li>
-										<li><img src="{{url('img/nuevas-formas/shorts-navigata.jpg')}}" alt="" class="center-block" /></li>
+										@foreach ($listaShorts as $prenda)
+										<li>
+											<a href="#" class="abrir-layer" data-bloque="#shorts-{{$prenda->codigo}}">
+												<img src="{{url('img/nuevas-formas/'.$prenda->codigo.'-lista.jpg')}}" alt="" class="center-block" />
+											</a>
+										</li>
+										@endforeach
 									</ul>
 								</div>
 							</div>
 						</div>
 					</div>
-					<p class="hidden-xs">
-						<br>
-					</p>
+					<p class="hidden-xs"><br></p>
 				</div>
 				<p class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>
@@ -186,7 +183,8 @@
 					</small>
 				</p>
 				<p class="bloque para-elegir-mas center-block text-center">
-					para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>
+					<!--para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>-->
+					elige <span>TU</span> accesorio ideal: SANDALIAS
 				</p>
 			</div>
 		</div>
@@ -194,12 +192,84 @@
 </div>
 @stop
 @section('contenido-dinamico')
-<div id="maxidress-1" class="prenda">
-	<img src="{{url('img/nuevas-formas/prendas/sexitop-navigata.jpg')}}" alt="">
+@foreach ($listaMaxidress as $lista)
+<div id="maxidress-{{$lista->codigo}}" class="prenda">
+	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		Polo Huecos<br>
-		1234456<br>
-		<span><small>s/.</small>59.90</span>
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+@foreach ($detalleMaxidress as $prenda)
+@if ($lista->codigo == $prenda->codigo)
+		{{$prenda->titulo}}<br>
+		{{$prenda->sku}}<br>
+		<span><small>s/.</small>{{$prenda->precio}}</span>
+@endif
+@endforeach
 	</div>
 </div>
+@endforeach
+
+@foreach ($listaPalazzos as $lista)
+<div id="palazzos-{{$lista->codigo}}" class="prenda">
+	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
+	<div class="detalle">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+@foreach ($detallePalazzos as $prenda)
+@if ($lista->codigo == $prenda->codigo)
+		{{$prenda->titulo}}<br>
+		{{$prenda->sku}}<br>
+		<span><small>s/.</small>{{$prenda->precio}}</span>
+@endif
+@endforeach
+	</div>
+</div>
+@endforeach
+
+@foreach ($listaSexytop as $lista)
+<div id="sexytop-{{$lista->codigo}}" class="prenda">
+	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
+	<div class="detalle">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+@foreach ($detalleSexytop as $prenda)
+@if ($lista->codigo == $prenda->codigo)
+		{{$prenda->titulo}}<br>
+		{{$prenda->sku}}<br>
+		<span><small>s/.</small>{{$prenda->precio}}</span>
+@endif
+@endforeach
+	</div>
+</div>
+@endforeach
+
+@foreach ($listaEnteritos as $lista)
+<div id="enteritos-{{$lista->codigo}}" class="prenda">
+	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
+	<div class="detalle">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+@foreach ($detalleEnteritos as $prenda)
+@if ($lista->codigo == $prenda->codigo)
+		{{$prenda->titulo}}<br>
+		{{$prenda->sku}}<br>
+		<span><small>s/.</small>{{$prenda->precio}}</span>
+@endif
+@endforeach
+	</div>
+</div>
+@endforeach
+
+@foreach ($listaShorts as $lista)
+<div id="shorts-{{$lista->codigo}}" class="prenda">
+	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
+	<div class="detalle">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+@foreach ($detalleShorts as $prenda)
+@if ($lista->codigo == $prenda->codigo)
+		{{$prenda->titulo}}<br>
+		{{$prenda->sku}}<br>
+		<span><small>s/.</small>{{$prenda->precio}}</span>
+@endif
+@endforeach
+	</div>
+</div>
+@endforeach
+
 @stop
