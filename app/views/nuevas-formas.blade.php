@@ -11,12 +11,12 @@
 				<div class="contenedor-nuevas-formas">
 					<div id="maxi-dress" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm ">
+							<h2 class="visible-xs visible-sm">
 								maxi dress
 								<span class="boton" data-bloque="#slider-maxi-dress"></span>
 							</h2>
 							<div id="slider-maxi-dress" class="row slider">
-								<div class="col-sm-3 hidden-xs slider-top-marca">
+								<div class="col-sm-3 hidden-xs top5-categorias">
 									<p class="marca">
 										<img src="{{url('img/maxi-dress.png')}}" alt="" class="img-responsive">
 										<br>
@@ -27,7 +27,7 @@
 										¡Elige el tuyo!
 									</p>
 								</div>
-								<div class="col-xs-12 col-sm-9 slider-top-imagenes">
+								<div class="col-xs-12 col-sm-9 top5-imagenes">
 									<span id="prev-maxidress" class="atras"></span>
 									<span id="next-maxidress" class="siguiente"></span>
 									<ul class="bxslider-maxidress">
@@ -51,7 +51,7 @@
 								<span class="boton" data-bloque="#slider-palazzos"></span>
 							</h2>
 							<div id="slider-palazzos" class="row slider">
-								<div class="col-sm-3 hidden-xs slider-top-marca">
+								<div class="col-sm-3 hidden-xs top5-categorias">
 									<p class="marca">
 										<img src="{{url('img/palazos.png')}}" alt="" class="img-responsive">
 										<br>
@@ -60,7 +60,7 @@
 										Un look relajado y agradable para las calurosas tardes de verano.
 									</p>
 								</div>
-								<div class="col-xs-12 col-sm-9 slider-top-imagenes">
+								<div class="col-xs-12 col-sm-9 top5-imagenes">
 									<span id="prev-palazos" class="atras"></span>
 									<span id="next-palazos" class="siguiente"></span>
 									<ul class="bxslider-palazos">
@@ -84,7 +84,7 @@
 								<span class="boton" data-bloque="#slider-sexy-top"></span>
 							</h2>
 							<div id="slider-sexy-top" class="row slider">
-								<div class="col-sm-3 hidden-xs slider-top-marca">
+								<div class="col-sm-3 hidden-xs top5-categorias">
 									<p class="marca">
 										<img src="{{url('img/sexy-top.png')}}" alt="" class="img-responsive">
 										<br>
@@ -92,7 +92,7 @@
 										y elige el ideal para ti.
 									</p>
 								</div>
-								<div class="col-xs-12 col-sm-9 slider-top-imagenes">
+								<div class="col-xs-12 col-sm-9 top5-imagenes">
 									<span id="prev-sexy-top" class="atras"></span>
 									<span id="next-sexy-top" class="siguiente"></span>
 									<ul class="bxslider-sexy-top">
@@ -116,7 +116,7 @@
 								<span class="boton" data-bloque="#slider-enteritos"></span>
 							</h2>
 							<div id="slider-enteritos" class="row slider">
-								<div class="col-sm-3 hidden-xs slider-top-marca">
+								<div class="col-sm-3 hidden-xs top5-categorias">
 									<p class="marca">
 										<img src="{{url('img/enteritos.png')}}" alt="" class="img-responsive">
 										<br>
@@ -125,7 +125,7 @@
 										Puedes llevarlo casual o informal, depende de los accesorios.
 									</p>
 								</div>
-								<div class="col-xs-12 col-sm-9 slider-top-imagenes">
+								<div class="col-xs-12 col-sm-9 top5-imagenes">
 									<span id="prev-enteritos" class="atras"></span>
 									<span id="next-enteritos" class="siguiente"></span>
 									<ul class="bxslider-enteritos">
@@ -149,7 +149,7 @@
 								<span class="boton" data-bloque="#slider-shorts"></span>
 							</h2>
 							<div id="slider-shorts" class="row slider">
-								<div class="col-sm-3 hidden-xs slider-top-marca">
+								<div class="col-sm-3 hidden-xs top5-categorias">
 									<p class="marca">
 										<img src="{{url('img/shorts.png')}}" alt="" class="img-responsive">
 										<br>
@@ -158,7 +158,7 @@
 										el clásico de todos los veranos. Los favoritos de la playa ahora invaden la ciudad. La vida es short, disfrútala.
 									</p>
 								</div>
-								<div class="col-xs-12 col-sm-9 slider-top-imagenes">
+								<div class="col-xs-12 col-sm-9 top5-imagenes">
 									<span id="prev-shorts" class="atras"></span>
 									<span id="next-shorts" class="siguiente"></span>
 									<ul class="bxslider-shorts">

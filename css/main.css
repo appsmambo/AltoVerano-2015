@@ -682,17 +682,17 @@ p.marca {
 	right: auto;
 	left: 30px;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
-	.slider-top-marca{
-		display: none
+	.top5-categorias {
+		display:none
 	}
-	.slider-top-imagenes{
-		width: 100%
+	.top5-imagenes {
+		width:100%
 	}
-	.top5 h2{
-		border: 3px solid #00000b;
-		text-align: center;
-		font-size: 22px;
-		padding: 12px 0;
+	.top5 h2 {
+		border:3px solid #00000b;
+		font-size:22px;
+		padding:12px 0
 	}
 }
