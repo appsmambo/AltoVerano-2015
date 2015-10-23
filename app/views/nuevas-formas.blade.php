@@ -11,7 +11,7 @@
 				<div class="contenedor-nuevas-formas">
 					<div id="maxi-dress" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm">
+							<h2 class="visible-xs visible-sm text-center">
 								maxi dress
 								<span class="boton" data-bloque="#slider-maxi-dress"></span>
 							</h2>
@@ -46,7 +46,7 @@
 					<p><br></p>
 					<div id="palazos" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm ">
+							<h2 class="visible-xs visible-sm text-center">
 								PALAZZOS
 								<span class="boton" data-bloque="#slider-palazzos"></span>
 							</h2>
@@ -79,7 +79,7 @@
 					<p><br></p>
 					<div id="sexy-top" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm ">
+							<h2 class="visible-xs visible-sm text-center">
 								sexy top
 								<span class="boton" data-bloque="#slider-sexy-top"></span>
 							</h2>
@@ -111,7 +111,7 @@
 					<p><br></p>
 					<div id="enteritos" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm ">
+							<h2 class="visible-xs visible-sm text-center">
 								enteritos
 								<span class="boton" data-bloque="#slider-enteritos"></span>
 							</h2>
@@ -144,7 +144,7 @@
 					<p><br></p>
 					<div id="shorts" class="top5">
 						<div class="container">
-							<h2 class="visible-xs visible-sm ">
+							<h2 class="visible-xs visible-sm text-center">
 								shorts
 								<span class="boton" data-bloque="#slider-shorts"></span>
 							</h2>
@@ -176,12 +176,12 @@
 					</div>
 					<p class="hidden-xs"><br></p>
 				</div>
-				<p class="bloque tu-look-por-menos center-block text-center">
+				<a href="{{url('tu-look-por-menos')}}" class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>
 					<small>
-						¡Elige tu <span>look del verano</span> a precios increíbles
+						Haz clic y encuentra tu <span>look del verano</span> <br class="visible-xs"> a precios increíbles
 					</small>
-				</p>
+				</a>
 				<p class="bloque para-elegir-mas center-block text-center">
 					<!--para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>-->
 					elige <span>TU</span> accesorio ideal: SANDALIAS

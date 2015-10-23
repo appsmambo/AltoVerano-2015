@@ -10,13 +10,13 @@
 				</p>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-aziz">
 							<img src="{{url('img/tu-look-por-menos/1-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-brigittenaux">
 							<img src="{{url('img/tu-look-por-menos/2-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
@@ -24,13 +24,13 @@
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-marquis">
 							<img src="{{url('img/tu-look-por-menos/3-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-navigata">
 							<img src="{{url('img/tu-look-por-menos/4-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
@@ -38,13 +38,13 @@
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-tatienne">
 							<img src="{{url('img/tu-look-por-menos/5-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-barbados">
 							<img src="{{url('img/tu-look-por-menos/6-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
@@ -52,7 +52,7 @@
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="#" class="abrir-look categorias" data-bloque="#look-azis">
+						<a href="#" class="abrir-look categorias" data-bloque="#look-index">
 							<img src="{{url('img/tu-look-por-menos/7-lista.jpg')}}" alt="" class="img-responsive center-block" />
 							<span></span>
 						</a>
@@ -61,14 +61,15 @@
 				<p class="hidden-xs">
 					<br>
 				</p>
-				<p class="bloque tu-look-por-menos center-block text-center">
-					TU <span>LOOK</span> POR <span>MENOS</span>
+				<a href="{{url('top-5-del-verano')}}" class="bloque tu-look-por-menos center-block text-center">
+					TOP <span>5</span> DEL <span>VERANO</span>
 					<small>
-						¡Elige tu <span>look del verano</span> a precios increíbles
+						Haz clic y encuentra tu <span>look del verano</span> <br class="visible-xs"> a precios increíbles
 					</small>
-				</p>
+				</a>
 				<p class="bloque para-elegir-mas center-block text-center">
-					para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>
+					<!--para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>-->
+					elige <span>TU</span> accesorio ideal: SANDALIAS
 				</p>
 			</div>
 		</div>
@@ -76,15 +77,17 @@
 </div>
 @stop
 @section('contenido-dinamico')
-<div id="look-azis" class="prenda">
-	<img src="{{url('img/tu-look-por-menos/look.jpg')}}" alt="">
+@foreach ($looks as $look)
+<div id="look-{{$look->marca}}" class="prenda">
+	<img src="{{url('img/tu-look-por-menos/'.$look->id.'-detalle.jpg')}}" alt="">
 	<div class="detalle look">
-		<img src="{{url('img/tu-look-por-menos/logo-barbados.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/look/'.$look->marca.'.png')}}" alt="" class="logo">
 		LOOK<br>
-		<span><small>s/.</small>149</span>
+		<span><small>s/.</small>{{$look->precio}}</span>
 	</div>
 	<p class="lista-prenda">
-		Vestido Tejido Jacuard <span>1234567890</span>
+		{{$look->prenda1}} <span>{{$look->sku1}}</span> | {{$look->prenda2}} <span>{{$look->sku2}}</span>
 	</p>
 </div>
+@endforeach
 @stop

@@ -4,12 +4,22 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>AltoVerano</title>
+		<title>{{$titulo}}</title>
+		<meta name="description" content="{{$descripcion}}">
+		<link rel="canonical" href="{{url()}}/">
+		<meta property="og:site_name" content="Yo Elijo Verano">
+		<meta property="og:title" content="{{$titulo}}">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="{{url()}}/">
+		<meta property="og:image" content="{{url('img/compartir.jpg')}}">
+		<meta property="og:locale" content="es_LA">
+		<meta property="og:description" content="{{$descripcion}}">
+		<link rel="shortcut icon" href="{{url('favicon.ico')}}">
 		<link href="{{url('css/bootstrap.min.css')}}" rel="stylesheet">
 		<link href="{{url('css/nivo-slider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.fancybox.css')}}" rel="stylesheet">
-		<link href="{{url('css/main.css?v=8')}}" rel="stylesheet">
+		<link href="{{url('css/main.css?v=10')}}" rel="stylesheet">
 		@yield('estilos')
 		<script src="{{url('js/queryloader2.min.js')}}"></script>
 		<script type="text/javascript">

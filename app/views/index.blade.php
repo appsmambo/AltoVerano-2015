@@ -13,7 +13,7 @@
 		<span id="slider-next" class="siguiente"></span>
 		<div class="container-slider center-block">
 			<p class="bloque no-me-conformo center-block text-center">
-				YO ELIJO LAS MEJORES <span>MARCAS</span>
+				LAS MEJORES <span>MARCAS</span>
 			</p>
 			<ul class="bxslider">
 				<li><img src="{{url('img/marcas/only.png')}}" alt="" class="center-block" /></li>
@@ -75,18 +75,6 @@
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<!--div id="cycler">
-							<img src="{{url('img/marcas/marquis.jpg')}}" alt="" class="active img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER1.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER2.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER3.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER4.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER5.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER6.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER7.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER8.jpg')}}" alt="" class="img-responsive center-block" />
-							<img src="{{url('img/marcas/V-SLIDER9.jpg')}}" alt="" class="img-responsive center-block" />
-						</div-->
 						<div class="slider-marcas center-block">
 							<ul class="bxslider-marcas">
 								<li>
@@ -119,14 +107,16 @@
 					</div>
 				</div>
 				<h2 class="text-center hidden-xs">
-					ELIGE <span>TUS TOP 5</span>
+					<a href="{{url('top-5-del-verano')}}">
+						ELIGE <span>TUS TOP 5</span>
+					</a>
 				</h2>
-				<p class="bloque tu-look-por-menos center-block text-center">
+				<a href="{{url('tu-look-por-menos')}}" class="bloque tu-look-por-menos center-block text-center">
 					TU <span>LOOK</span> POR <span>MENOS</span>
 					<small>
-						<a href="{{url('tu-look-por-menos')}}">Haz clic y encuentra tu <span>look del verano</span> a precios increíbles</a>
+						Haz clic y encuentra tu <span>look del verano</span> <br class="visible-xs"> a precios increíbles
 					</small>
-				</p>
+				</a>
 			</div>
 		</div>
 	</div>

@@ -12,7 +12,10 @@ class HomeController extends BaseController {
 	public function getIndex()
 	{
 		$this->_clase = 'home';
-		return View::make('index')->with('clase', $this->_clase);
+		return View::make('index')
+			->with('titulo', 'Ripley - Alto Verano')
+			->with('descripcion', 'Yo Elijo Verano - Sarah Jessica Parker. Entra a www.modaripley.com/veranoripley')
+			->with('clase', $this->_clase);
 	}
 	
 	public function getTop5()
@@ -32,6 +35,8 @@ class HomeController extends BaseController {
 		$detalleShorts = Top5::where('categoria', '=', 'shorts')->orderBy('codigo')->get();
 		
 		return View::make('nuevas-formas')
+			->with('titulo', 'Ripley - Top 5')
+			->with('descripcion', 'Elije los TOP 5 del verano en Ripley entrando a www.modaripley.com/veranoripley/top-5-del-verano')
 			->with('clase', $this->_clase)
 			->with('listaMaxidress', $listaMaxidress)
 			->with('listaPalazzos', $listaPalazzos)
@@ -47,7 +52,13 @@ class HomeController extends BaseController {
 	
 	public function getTuLook()
 	{
-		return View::make('tu-look')->with('clase', $this->_clase);
+		$looks = Look::orderBy('id')->get();
+		
+		return View::make('tu-look')
+			->with('titulo', 'Ripley - Tu look por menos')
+			->with('descripcion', '¡TU LOOK POR MENOS! Elige tu look del verano a precios increíbles solo en Ripley www.modaripley.com/veranoripley/tu-look-por-menos')
+			->with('clase', $this->_clase)
+			->with('looks', $looks);
 	}
 	
 	public function getSandalias()

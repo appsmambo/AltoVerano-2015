@@ -1,5 +1,4 @@
 var altoContenedor, anchoWindow;
-var sliderMaxiDress;
 
 function home() {
 	var resta = 0;
@@ -26,6 +25,7 @@ $(window).load(function(){
 		manualAdvance:false
 	});
 	$('.bxslider').bxSlider({
+		auto:true,
 		pager:false,
 		maxSlides:4,
 		moveSlides:1,
@@ -42,7 +42,7 @@ $(window).load(function(){
 		maxSlides:1,
 		moveSlides:1
 	});
-	sliderMaxiDress = $('.bxslider-maxidress').bxSlider({
+	$('.bxslider-maxidress').bxSlider({
 		pager:false,
 		maxSlides:3,
 		moveSlides:1,
