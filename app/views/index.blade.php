@@ -3,10 +3,10 @@
 <div class="contenedor-fijo">
 	<div id="banner" class="nivoSlider">
 		<img src="{{url('img/banner/sjp-yo-elijo-verano.jpg')}}" alt="" />
-		<img src="{{url('img/banner/yo-elijo-las-mejores-marcas.jpg')}}" alt="" />
-		<img src="{{url('img/banner/yo-elijo-navigata.jpg')}}" alt="" />
-		<img src="{{url('img/banner/yo-elijo-marquis.jpg')}}" alt="" />
-		<img src="{{url('img/banner/yo-elijo-index.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-vestidos.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-palazzos.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-shorts.jpg')}}" alt="" />
+		<img src="{{url('img/banner/yo-elijo-sexy-top.jpg')}}" alt="" />
 	</div>
 	<div class="marcas hidden-xs">
 		<span id="slider-prev" class="atras"></span>
@@ -95,6 +95,18 @@
 								<li>
 									<img src="{{url('img/marcas/V-SLIDER5.jpg')}}" alt="" class="img-responsive center-block" />
 								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER6.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER7.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER8.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
+								<li>
+									<img src="{{url('img/marcas/V-SLIDER9.jpg')}}" alt="" class="img-responsive center-block" />
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -102,7 +114,7 @@
 				<div class="row grid">
 					<div class="col-xs-12">
 						<div class="embed-responsive embed-responsive-16by9">
-							<iframe src="https://www.youtube.com/embed/zYtFMYQ6Aag" class="embed-responsive-item"></iframe>
+							<iframe src="https://www.youtube.com/embed/l5ePXZpJJew" class="embed-responsive-item"></iframe>
 						</div>
 					</div>
 				</div>

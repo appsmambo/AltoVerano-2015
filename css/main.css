@@ -356,7 +356,7 @@ p.marca {
 	.detalle.look span {
 		font-size:28px
 	}
-	.prenda .detalle .logo {
+	.prenda .detalle .logo-marca {
 		position:absolute;
 		top:-45px;
 		right:-4px

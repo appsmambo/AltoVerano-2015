@@ -81,7 +81,7 @@
 <div id="look-{{$look->marca}}" class="prenda">
 	<img src="{{url('img/tu-look-por-menos/'.$look->id.'-detalle.jpg')}}" alt="">
 	<div class="detalle look">
-		<img src="{{url('img/marcas/look/'.$look->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/look/'.$look->marca.'.png')}}" alt="" class="logo-marca">
 		LOOK<br>
 		<span><small>s/.</small>{{$look->precio}}</span>
 	</div>

@@ -196,7 +196,7 @@
 <div id="maxidress-{{$lista->codigo}}" class="prenda">
 	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo-marca">
 @foreach ($detalleMaxidress as $prenda)
 @if ($lista->codigo == $prenda->codigo)
 		{{$prenda->titulo}}<br>
@@ -212,7 +212,7 @@
 <div id="palazzos-{{$lista->codigo}}" class="prenda">
 	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo-marca">
 @foreach ($detallePalazzos as $prenda)
 @if ($lista->codigo == $prenda->codigo)
 		{{$prenda->titulo}}<br>
@@ -228,7 +228,7 @@
 <div id="sexytop-{{$lista->codigo}}" class="prenda">
 	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo-marca">
 @foreach ($detalleSexytop as $prenda)
 @if ($lista->codigo == $prenda->codigo)
 		{{$prenda->titulo}}<br>
@@ -244,7 +244,7 @@
 <div id="enteritos-{{$lista->codigo}}" class="prenda">
 	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo-marca">
 @foreach ($detalleEnteritos as $prenda)
 @if ($lista->codigo == $prenda->codigo)
 		{{$prenda->titulo}}<br>
@@ -260,7 +260,7 @@
 <div id="shorts-{{$lista->codigo}}" class="prenda">
 	<img src="{{url('img/nuevas-formas/'.$lista->codigo.'-detalle.jpg')}}" alt="">
 	<div class="detalle">
-		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo">
+		<img src="{{url('img/marcas/top5/'.$lista->marca.'.png')}}" alt="" class="logo-marca">
 @foreach ($detalleShorts as $prenda)
 @if ($lista->codigo == $prenda->codigo)
 		{{$prenda->titulo}}<br>
