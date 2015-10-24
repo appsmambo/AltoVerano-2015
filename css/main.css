@@ -353,6 +353,11 @@ p.marca {
 	.prenda .detalle small {
 		font-size:20px
 	}
+	.prenda .detalle small.antes {
+		float:right;
+		font-size:11px;
+		text-align:right
+	}
 	.detalle.look span {
 		font-size:28px
 	}

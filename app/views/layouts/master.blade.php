@@ -19,7 +19,7 @@
 		<link href="{{url('css/nivo-slider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.bxslider.css')}}" rel="stylesheet">
 		<link href="{{url('css/jquery.fancybox.css')}}" rel="stylesheet">
-		<link href="{{url('css/main.css?v=11')}}" rel="stylesheet">
+		<link href="{{url('css/main.css?v=12')}}" rel="stylesheet">
 		@yield('estilos')
 		<script src="{{url('js/queryloader2.min.js')}}"></script>
 		<script type="text/javascript">
