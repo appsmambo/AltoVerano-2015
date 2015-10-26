@@ -1,9 +1,9 @@
-@extends("layouts/master")
+@extends("layouts/sandalias")
 @section('contenido')
 <div class="row main">
-	<div class="col-md-10 col-md-offset-1 ">
+	<div class="col-xs-10 col-xs-offset-1 ">
 		<div class="row borde">
-			<div class="col-md-12 ">
+			<div class="col-xs-12 ">
 				<p class="bloque nuevas-formas accesorios center-block text-center">
 					+ACCE<span>SORIOS</span>
 				</p>
@@ -101,10 +101,10 @@
 					</div>
 				</div>
 				<div  class="row grid banner-sandalias-marcas">
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-6">
 						<a href="{{url('sandalias/sandalias-por-menos')}}"><img src="{{url('img/big/ninos.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
-					<div class="col-md-6">
+					<div class="col-md-6 col-xs-6">
 						<a href="{{url('sandalias/ninos')}}"><img src="{{url('img/big/index.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
 				</div>

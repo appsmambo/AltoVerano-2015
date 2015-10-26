@@ -30,6 +30,7 @@
 }
 .banner-sandalias-marcas{
 	margin-top: 40px;
+	margin-bottom: 20px;
 }
 .interna .accesorios-slider-content .atras {
     left: 1.5%;
@@ -49,3 +50,58 @@
 .bloque.nueva-temporada small{
 	letter-spacing: 3px;
 }
+.borde.azul{
+	-webkit-box-shadow: 0px 0px 0px 26px rgba(85,173,200,0.5);
+    -moz-box-shadow: 0px 0px 0px 26px rgba(85,173,200,0.5);
+    box-shadow: 0px 0px 0px 26px rgba(85,173,200,0.5);
+	padding-top: 466px;
+}
+.interna .main.ninos{
+	margin-top: 21px;
+}
+.contenedor-fijo.banner-ninos{
+	top: 10px;
+}
+.prenda .detalle.ninos{
+	-webkit-box-shadow: 0px 0px 0px 4px rgba(122,188,208,1);
+    -moz-box-shadow: 0px 0px 0px 4px rgba(122,188,208,1);
+    box-shadow: 0px 0px 0px 4px rgba(122,188,208,1);
+    background-color: #7abcd0;
+	left: 32px;
+	right: initial;
+	font-size: 14px;
+}
+.prenda .detalle.ninos:last-child{
+	margin-top: 0;
+}
+.detalle.look.ninos span{
+	font-size:24px ;
+}
+.prenda .detalle.ninos .logo{
+	left: 0;
+}
+.banner-marquis-sandalias{
+	margin-bottom: 20px;
+}
+#body-nav ul li a{
+	font-size: 20px;
+	line-height: 70px;
+}
+.toggle-nav{
+	right: 10px;
+}
+@media (max-width: 991px) and (min-width: 768px){
+	p.menu a {
+		font-size: 10px;
+		margin-right: 10px;
+	}
+}
+@media (max-width: 767px){
+	.push-wrap{
+		min-height: 700px;
+	}
+	.top5 h2 {
+		font-size: 13px !important;
+	}
+}
+

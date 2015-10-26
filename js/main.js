@@ -225,6 +225,36 @@ $(window).load(function(){
 		nextText:'',
 		prevText:''
 	});
+	$('.bxslider-alpargtas').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-alpargtas',
+		prevSelector:'#prev-alpargtas',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-sandalias').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-sandalias',
+		prevSelector:'#prev-sandalias',
+		nextText:'',
+		prevText:''
+	});
+	$('.bxslider-harvest').bxSlider({
+		pager:false,
+		maxSlides:3,
+		moveSlides:1,
+		slideWidth:180,
+		nextSelector:'#next-harvest',
+		prevSelector:'#prev-harvest',
+		nextText:'',
+		prevText:''
+	});
 	home();
 });
 
