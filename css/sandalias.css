@@ -103,5 +103,40 @@
 	.top5 h2 {
 		font-size: 13px !important;
 	}
+	.footer-sandalias{
+		padding-left: 3px;
+		padding-right: 3px;
+	}
+	.contenedor-fijo.banner-ninos {
+		display: none;
+	}
+	.borde.azul{
+		padding-top: 20px;
+		-webkit-box-shadow: 0px 0px 0px 10px rgba(85,173,200,0.5);
+		-moz-box-shadow: 0px 0px 0px 10px rgba(85,173,200,0.5);
+		box-shadow: 0px 0px 0px 10px rgba(85,173,200,0.5);
+	}
+	.bloque.nuevas-formas.accesorios{
+		padding:33px 0;
+	}
+	.top5 h2 {
+		font-size: 13px !important;
+	}
+	.top5.ninos h2 {
+		font-size: 17px !important;
+		font-family:'AmericanTypewriter';
+		color: #80c2d6;
+		line-height: 24px;
+	}
+	.top5.ninos .container {
+		background-color: rgba(252,252,252,0.9);
+		border: 4px solid #81aecf;
+	}
+	.accesorios-slider-banner, .accesorios-slider-content{
+		width: 100%;
+	}
+	.bloque nuevas-formas accesorios{
+		margin-top: -25px;
+	}
 }
 

@@ -10,10 +10,10 @@
 				<div id="marquis" class="row">
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
-							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block">
+							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block boton" data-bloque="#slider-marquis">
 						</p>
 					</div>
-					<div class="col-md-7 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content slider" id="slider-marquis">
 						<span id="prev-marquis" class="atras"></span>
 						<span id="next-marquis" class="siguiente"></span>
 						<ul class="bxslider-marquis">
@@ -101,10 +101,10 @@
 					</div>
 				</div>
 				<div  class="row grid banner-sandalias-marcas">
-					<div class="col-md-6 col-xs-6">
+					<div class="col-xs-6">
 						<a href="{{url('sandalias/sandalias-por-menos')}}"><img src="{{url('img/big/ninos.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
-					<div class="col-md-6 col-xs-6">
+					<div class="col-xs-6">
 						<a href="{{url('sandalias/ninos')}}"><img src="{{url('img/big/index.jpg')}}" alt="" class="img-responsive" /></a>
 					</div>
 				</div>

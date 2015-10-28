@@ -322,6 +322,12 @@ $(function(){
 		$('.bx-viewport').css('height', 'auto');
 		$(bloque).slideToggle('slow');
 	});
+	$('.accesorios-slider-banner .boton').click(function() {
+		var bloque = $(this).data('bloque');
+		$(this).toggleClass('cerrar');
+		$('.bx-viewport').css('height', 'auto');
+		$(bloque).slideToggle('slow');
+	});
 	$(window).resize(function() {
 		home();
 	});
