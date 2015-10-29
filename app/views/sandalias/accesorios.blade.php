@@ -11,7 +11,7 @@
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
-							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-marquis">
+							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block boton visible-xs" data-bloque="#slider-marquis">
 						</p>
 					</div>
 					<div class="col-md-7 accesorios-slider-content slider" id="slider-marquis">
@@ -44,7 +44,7 @@
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
-							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-cacharel">
+							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block boton visible-xs" data-bloque="#slider-cacharel">
 						</p>
 					</div>
 					<div class="col-md-7 accesorios-slider-content" id="slider-cacharel">
@@ -77,7 +77,7 @@
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
 							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
-							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-index">
+							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block boton visible-xs" data-bloque="#slider-index">
 						</p>
 					</div>
 					<div class="col-md-7 accesorios-slider-content" id="slider-index">

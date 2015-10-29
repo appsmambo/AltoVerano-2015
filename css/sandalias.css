@@ -97,6 +97,21 @@ h2 span.italic-sandalias{
 	font-style: italic;
 	font-family:'AvenirBook';
 }
+.menu-oblique{
+	font-family:'AvenirBook';
+	font-style: italic;
+}
+p.menu a:hover, p.menu a.active {
+    background: #000;
+    color: #fff;
+}
+p.menu a{
+	padding: 6px 10px;
+}
+.italic-titulo-verano{
+	font-family:'AvenirBook';
+	font-style: italic;
+}
 @media (max-width: 991px) and (min-width: 768px){
 	p.menu a {
 		font-size: 10px;

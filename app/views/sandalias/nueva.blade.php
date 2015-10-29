@@ -5,8 +5,8 @@
 		<div class="row borde">
 			<div class="col-xs-12 ">
 				<p class="bloque tu-look center-block text-center nueva-temporada">
-					NUEVA
-					<small>TEMPO<span>RADA</span></small>
+					TOP10<br>
+					<span class="italic-titulo-verano">DEL VERANO</span>
 				</p>
 				<div class="contenedor-nuevas-formas">
 					<div id="minimal" class="top5">

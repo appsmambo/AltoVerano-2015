@@ -50,8 +50,8 @@ var baseUrl = '{{url()}}';
 		<nav id="body-nav">
 			<ul>
 				<li>
-					<a href="{{url('sandalias/nueva-temporada')}}" class="{{ (Route::current()->getName() == 'nuevaTemporada') ? 'active' : '' }}">
-						nueva temporada
+					<a href="{{url('sandalias/top-10-verano')}}" class="{{ (Route::current()->getName() == 'nuevaTemporada') ? 'active' : '' }}">
+						Top10 Verano
 					</a>
 				</li>
 				<li>
@@ -103,8 +103,8 @@ var baseUrl = '{{url()}}';
 								</div>
 								<div class="hidden-xs col-sm-9">
 									<p class="text-right menu">
-										<a href="{{url('sandalias/nueva-temporada')}}" class="{{ (Route::current()->getName() == 'nuevaTemporada') ? 'active' : '' }}">
-											nueva temporada
+										<a href="{{url('sandalias/top-10-verano')}}" class="{{ (Route::current()->getName() == 'nuevaTemporada') ? 'active' : '' }}">
+											Top10 <span class="menu-oblique">Verano</span>
 										</a>
 										<a href="{{url('sandalias/ninos')}}" class="{{ (Route::current()->getName() == 'ninos') ? 'active' : '' }}">
 											niños
