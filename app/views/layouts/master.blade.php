@@ -78,19 +78,19 @@
 					</a>
 				</li>
 				<li>
-					<a href="#" target="_blank">
+					<a href="http://facebook.com/ripleyperu" target="_blank">
 						<img src="{{url('img/social-facebook.png')}}" alt="facebook">
 					</a>
-					<a href="#" target="_blank">
+					<a href="https://www.youtube.com/channel/UCcy8eiFOUYAxYSABOSjGHqA" target="_blank">
 						<img src="{{url('img/social-youtube.png')}}" alt="youtube">
 					</a>
-					<a href="#" target="_blank">
+					<a href="http://twitter.com/ripleyenperu" target="_blank">
 						<img src="{{url('img/social-twitter.png')}}" alt="twitter">
 					</a>
-					<a href="#" target="_blank">
+					<a href="http://instagram.com/ripleyperu" target="_blank">
 						<img src="{{url('img/social-instagram.png')}}" alt="instagram">
 					</a>
-					<a href="#" target="_blank">
+					<a href="http://pinterest.com/ripleyperu" target="_blank">
 						<img src="{{url('img/social-pinterest.png')}}" alt="pinterest">
 					</a>
 				</li>

@@ -1,4 +1,4 @@
-@extends("layouts/sandalias")
+@extends("layouts/master")
 @section('contenido')
 <div class="row main">
 	<div class="col-xs-10 col-xs-offset-1">
