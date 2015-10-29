@@ -10,7 +10,8 @@
 				<div id="marquis" class="row">
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
-							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block boton" data-bloque="#slider-marquis">
+							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
+							<img src="{{url('img/accesorios/marquis.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-marquis">
 						</p>
 					</div>
 					<div class="col-md-7 accesorios-slider-content slider" id="slider-marquis">
@@ -42,10 +43,11 @@
 				<div id="cacharel" class="row">
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
-							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block">
+							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
+							<img src="{{url('img/accesorios/cacharel.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-cacharel">
 						</p>
 					</div>
-					<div class="col-md-7 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content" id="slider-cacharel">
 						<span id="prev-cacharel" class="atras"></span>
 						<span id="next-cacharel" class="siguiente"></span>
 						<ul class="bxslider-cacharel">
@@ -74,10 +76,11 @@
 				<div id="index" class="row">
 					<div class="col-md-5 accesorios-slider-banner">
 						<p class="marca">
-							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block">
+							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block hidden-xs">
+							<img src="{{url('img/accesorios/index.jpg')}}" alt="" class="img-responsive center-block boton visible-xs-xs" data-bloque="#slider-index">
 						</p>
 					</div>
-					<div class="col-md-7 accesorios-slider-content">
+					<div class="col-md-7 accesorios-slider-content" id="slider-index">
 						<span id="prev-index" class="atras"></span>
 						<span id="next-index" class="siguiente"></span>
 						<ul class="bxslider-index">

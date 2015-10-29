@@ -8,7 +8,7 @@
 	<div class="col-xs-10 col-xs-offset-1 ">
 		<div class="row borde azul">
 			<div class="col-xs-12 ">
-				<p class="bloque nuevas-formas accesorios visible-xs  center-block text-center">
+				<p class="bloque nuevas-formas ninos accesorios visible-xs  center-block text-center">
 					NI<span>ÑOS</span>
 				</p>
 				<div class="contenedor-nuevas-formas">

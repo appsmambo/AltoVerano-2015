@@ -90,6 +90,13 @@
 .toggle-nav{
 	right: 10px;
 }
+h2 span.black-sandalias{
+	font-family:'AvenirBlack';
+}
+h2 span.italic-sandalias{
+	font-style: italic;
+	font-family:'AvenirBook';
+}
 @media (max-width: 991px) and (min-width: 768px){
 	p.menu a {
 		font-size: 10px;
@@ -116,6 +123,10 @@
 		-moz-box-shadow: 0px 0px 0px 10px rgba(85,173,200,0.5);
 		box-shadow: 0px 0px 0px 10px rgba(85,173,200,0.5);
 	}
+	.bloque.nuevas-formas.accesorios.ninos{
+		padding:30px 0;
+		margin-top: -45px;
+	}
 	.bloque.nuevas-formas.accesorios{
 		padding:33px 0;
 	}
@@ -135,8 +146,14 @@
 	.accesorios-slider-banner, .accesorios-slider-content{
 		width: 100%;
 	}
-	.bloque nuevas-formas accesorios{
-		margin-top: -25px;
+	.accesorios-slider-content{
+		display: none;
+	}
+	.top5.ninos h2 span {
+		background-image:url('../img/sandalias-abrir.png');
+		height: 12px;
+	}
+	.top5.ninos h2 span.cerrar {
+		background-image:url('../img/sandalias-cerrar.png');
 	}
 }
-

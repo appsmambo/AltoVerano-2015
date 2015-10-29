@@ -9,50 +9,58 @@
 					<small>POR<span>MENOS</span></small>
 				</p>
 				<div class="row grid">
-					<div class="col-xs-6">
-						<a href="#"  >
+					<div class="col-xs-6" >
+						<a href="#"  class="categorias">
 							<img src="{{url('img/sandalias-por-menos/aziz-1.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
-					<div class="col-xs-6">
-						<a href="#" >
+					<div class="col-xs-6" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/aziz-2.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-xs-6">
-						<a href="#" >
+					<div class="col-xs-6" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/index-1.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
-					<div class="col-xs-6">
-						<a href="#">
+					<div class="col-xs-6" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/index-2.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
-					<div class="col-xs-6">
-						<a href="#" >
+					<div class="col-xs-6" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/index-3.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
-					<div class="col-xs-6">
-						<a href="#" >
+					<div class="col-xs-6" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/navigata-1.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>
 				<div class="row grid">
 					<div class="col-xs-6">
-						<a href="#" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/index-4.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 					<div class="col-xs-6">
-						<a href="#" >
+						<a href="#" class="categorias">
 							<img src="{{url('img/sandalias-por-menos/aziz-3.jpg')}}" alt="" class="img-responsive center-block" />
+							<span></span>
 						</a>
 					</div>
 				</div>

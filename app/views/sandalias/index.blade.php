@@ -73,6 +73,18 @@
 					</div>
 				</div>
 				<div class="row grid ">
+					<div class="col-xs-12">
+						<div class="embed-responsive embed-responsive-16by9">
+							<iframe src="https://www.youtube.com/embed/l5ePXZpJJew" class="embed-responsive-item"></iframe>
+						</div>
+					</div>
+				</div>
+				<h2 class="text-center hidden-xs">
+					<a href="{{url('top-5-del-verano')}}">
+						¡Conoce los <span class="black-sandalias">TOP10</span> <span class="italic-sandalias">SANDALIAS</span> y elige las tuyas!
+					</a>
+				</h2>
+				<div class="row grid ">
 					<div class="col-xs-4 footer-sandalias">
 						<a href="{{url('sandalias/accesorios')}}"><img src="{{url('img/small/lentes.jpg')}}" alt="" class="img-responsive center-block" /></a>
 					</div>
