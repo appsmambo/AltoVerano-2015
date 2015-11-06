@@ -67,10 +67,9 @@
 						Haz clic y encuentra tu <span>look del verano</span> <br class="visible-xs"> a precios increíbles
 					</small>
 				</a>
-				<!--p class="bloque para-elegir-mas center-block text-center">
-					para elegir <span>+</span> visita <span><a href="http://www.ripley.com/" target="_blank">ripley.com</a></span>
+				<a href="http://modaripley.com/sandaliasripley/" class="bloque para-elegir-mas center-block text-center" target="_blank">
 					elige <span>TU</span> accesorio ideal: SANDALIAS
-				</p-->
+				</a>
 			</div>
 		</div>
 	</div>
